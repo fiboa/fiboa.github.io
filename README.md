@@ -1,5 +1,3 @@
-# *Fi*eld *Bo*undaries for *A*griculture
-
 ## About fiboa
 The Field Boundaries for Agriculture (fiboa) project is focused on making field boundary data openly available in a unified format on a global scale. We believe that the fiboa specification is a foundational aspect of agricultural field boundary data interoperability which enables and accelerates additional layers of collaboration and detail via custom extensions. 
 
