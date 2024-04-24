@@ -11,6 +11,7 @@ The bulk of the valuable information will be located in the extensions. There wi
 You can learn more about the technologies behind the fiboa specification, read the full specification text, and explore available open data sets and extensions at the links below.
 
 - [The Specification](https://github.com/fiboa/specification)
+- [List of Tutorials](https://github.com/fiboa/tutorials)
 - [List of Datasets](https://github.com/fiboa/data)
 - [List of Extensions / Guide to Creating Extensions](https://github.com/fiboa/extensions)
 - [List of Software / Tooling](https://github.com/fiboa/software)
@@ -37,5 +38,7 @@ Joining this Google Group will also get you a calendar invite for the bi-weekly 
   - [New extensions or high-level extension discussions](https://github.com/fiboa/extensions/issues)
   - [New software/tooling or high-level software/tooling discussions](https://github.com/fiboa/software/issues)
   - [New datasets or data-related issues](https://github.com/fiboa/data/issues)
+  - [Missing learning resources or related issues](https://github.com/fiboa/tutorials/issues)
   - [Discussions that span multiple topics (e.g. specification, tooling, extensions)](https://github.com/fiboa/specification/discussions)
   - Discussions and issues around specific tooling or extensions goes into the [corresponding repositories](https://github.com/orgs/fiboa/repositories)
+
