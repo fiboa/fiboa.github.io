@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "fiboa",
+  "title": "fiboa Field Boundaries",
+  "description": "The Field Boundaries for Agriculture (fiboa) project is focused on making field boundary data openly available in a unified format on a global scale. We believe that the fiboa specification is a foundational aspect of agricultural field boundary data interoperability which enables and accelerates additional layers of collaboration and detail via custom extensions.\n\nThis STAC catalog provides a collection of field boundary data from various sources, but all converted to be fiboa compliant.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://fiboa.org/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://fiboa.org/stac/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/austria/stac/collection.json",
+      "type": "application/json",
+      "title": "Austria",
+      "license": "CC-BY-4.0",
+      "attribution": "Agrarmarkt Austria",
+      "source": "https://beta.source.coop/repositories/fiboa/austria/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-bb/stac/collection.json",
+      "type": "application/json",
+      "title": "Germany, Berlin / Brandenburg",
+      "license": "dl-de/by-2-0",
+      "attribution": "Land Brandenburg",
+      "source": "https://beta.source.coop/repositories/fiboa/de-bb/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-nds/stac/collection.json",
+      "type": "application/json",
+      "title": "Germany, Lower Saxony",
+      "license": "dl-de/by-2-0",
+      "attribution": "Land Niedersachsen",
+      "source": "https://beta.source.coop/repositories/fiboa/de-nds/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-nrw/stac/collection.json",
+      "type": "application/json",
+      "title": "Germany, North Rhine-Westphalia",
+      "license": "dl-de/by-2-0",
+      "attribution": "Land Nordrhein-Westfalen / Open.NRW",
+      "source": "https://beta.source.coop/repositories/fiboa/de-nrw/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-sh/stac/collection.json",
+      "type": "application/json",
+      "title": "Germany, Schleswig-Holstein",
+      "license": "dl-de/zero-2-0",
+      "attribution": "Land Schleswig-Holstein",
+      "source": "https://beta.source.coop/repositories/fiboa/de-sh/description/"
+    }
+  ]
+}
