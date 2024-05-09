@@ -59,6 +59,15 @@
       "license": "dl-de/zero-2-0",
       "attribution": "Land Schleswig-Holstein",
       "source": "https://beta.source.coop/repositories/fiboa/de-sh/description/"
+    },
+    {
+      "rel": "child",
+      "href": "./datasets/ukfields.json",
+      "type": "application/json",
+      "title": "UKFields",
+      "license": "CC-BY-4.0",
+      "attribution": "Bancroft S, Wilkins J",
+      "source": "https://zenodo.org/records/11110206"
     }
   ]
 }
