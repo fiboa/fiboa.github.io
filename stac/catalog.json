@@ -68,6 +68,15 @@
       "license": "CC-BY-4.0",
       "attribution": "Bancroft S, Wilkins J",
       "source": "https://zenodo.org/records/11110206"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/france-ec/stac/collection.json",
+      "type": "application/json",
+      "title": "Eurocrops - France",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Schneider, Maja and Schelte, Tobias and Schmitz, Felix and Körner, Marco",
+      "source": "https://zenodo.org/records/11110206"
     }
   ]
 }
