@@ -68,6 +68,50 @@
       "license": "CC-BY-4.0",
       "attribution": "Bancroft S, Wilkins J",
       "source": "https://zenodo.org/records/11110206"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/slovenia-ec/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Slovenia from EuroCrops (2021)",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Ministrstvo za kmetijstvo, gozdarstvo in prehrano",
+      "source": "https://beta.source.coop/repositories/fiboa/slovenia-ec/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/ec-lv/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Latvia from EuroCrops (2021)",
+      "license": "CC-BY-4.0",
+      "attribution": "Lauku atbalsta dienests",
+      "source": "https://beta.source.coop/repositories/fiboa/ec-lv/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/finland/stac/collection.json",
+      "type": "application/json",
+      "title": "Finnish Crop Fields (Maatalousmaa)",
+      "license": "CC-BY-4.0",
+      "attribution": "Finnish Food Authority",
+      "source": "https://beta.source.coop/repositories/fiboa/finland/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/france-ec/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for France from Eurocrops (2018)",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Institut National de l'Information Géographique et Forestière",
+      "source": "https://beta.source.coop/repositories/fiboa/france-ec/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/nl-ref/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for The Netherlands",
+      "license": "CC0-1.0",
+      "source": "https://beta.source.coop/repositories/fiboa/nl-ref/description/"
     }
   ]
 }
