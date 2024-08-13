@@ -112,6 +112,14 @@
       "title": "Field boundaries for The Netherlands",
       "license": "CC0-1.0",
       "source": "https://beta.source.coop/repositories/fiboa/nl-ref/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/nl-crop/stac/collection.json",
+      "type": "application/json",
+      "title": "BRP Crop Field Boundaries for The Netherlands (CAP-based)",
+      "license": "CC0-1.0",
+      "source": "https://beta.source.coop/repositories/fiboa/nl-crop/description/"
     }
   ]
 }
