@@ -9,7 +9,9 @@ const promises = json.links
     const url = new URL(link.href, self.href);
     try {
       const response = await fetch(url);
-      return await response.json();
+      const collection = await response.json();
+      collection.source = link.source;
+      return collection;
     } catch (error) {
       console.error(`Failed to load ${url}: ${error}`);
     }
@@ -25,11 +27,16 @@ Promise.allSettled(promises)
           id: c.id,
           title: (c.title || "").replace('Field boundaries for ', ''),
           attribution: c.attribution,
-          bbox: c.extent.spatial.bbox[0]
+          bbox: c.extent.spatial.bbox[0],
+          source: c.source
         };
         const pmtiles = c.links.find(l => l.rel === 'pmtiles');
         if (pmtiles) {
           data.pmtiles = pmtiles.href.replace('://beta.source.coop/', '://data.source.coop/');
+        }
+        const parquet = Object.values(c.assets).find(a => a.type === 'application/vnd.apache.parquet');
+        if (parquet && parquet['table:row_count'] > 0) {
+          data.count = parquet['table:row_count'];
         }
         return data;
       });

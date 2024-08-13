@@ -59,6 +59,7 @@ const fieldStyle = new Style({
   })
 });
 
+let count = 0;
 for (const c of collections) {
   const feature = new Feature(fromExtent(c.bbox));
   feature.setProperties(c);
@@ -77,6 +78,10 @@ for (const c of collections) {
     })
   });
   map.addLayer(bbox);
+
+  if (c.count > 0) {
+    count += c.count;
+  }
 
   if (c.pmtiles) {
     const options = {
@@ -97,6 +102,8 @@ for (const c of collections) {
   }
 }
 
+document.getElementById('count').innerText = count.toLocaleString();
+
 const popup = document.getElementById('popup');
 const overlay = new Overlay({
   element: popup,
@@ -111,15 +118,30 @@ map.on('click', event => {
   let content = '';
   for (const feature of features) {
     const properties = feature.getProperties();
+    const isCollection = Array.isArray(properties.bbox);
 
     content += `<h3>${properties.title || properties.id || 'unknown identifier'}</h3>`;
-    if (properties.bbox && !properties.pmtiles) {
+    if (isCollection && properties.source) {
+      content += `<p><a href="${properties.source}" target="_blank">Get the data</a></p>`;
+    }
+    if (isCollection && !properties.pmtiles) {
       content += `<p>No visualization available for this dataset.</p>`;
     }
     content += `<ul>`;
     for (const key in properties) {
-      if (typeof key !== 'undefined' && !['geometry', 'bbox', 'title', 'pmtiles'].includes(key)) {
-        content += `<li><strong>${key}:</strong> ${properties[key]}</li>`;
+      if (typeof key !== 'undefined' && !['geometry', 'bbox', 'title', 'pmtiles', 'source'].includes(key)) {
+
+        content += `<li><strong>${key}:</strong> `
+        if (Array.isArray(properties[key])) {
+          content += properties[key].join(', ');
+        }
+        else if (typeof properties[key] === 'number') {
+          content += properties[key].toLocaleString();
+        }
+        else {
+          content += properties[key];
+        }
+        content += `</li>`;
       }
     }
 

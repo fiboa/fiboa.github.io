@@ -14,6 +14,11 @@ html, body {
   z-index: 1;
 }
 
+a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
 h1, #hint {
   font-family: sans-serif;
   position: absolute;
@@ -28,6 +33,14 @@ h1, #hint {
 h1 {
   left: 1rem;
   top: 1rem;
+  text-align: center;
+}
+
+h1 small {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  font-weight: normal;
 }
 
 #hint {
