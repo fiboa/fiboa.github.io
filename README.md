@@ -13,6 +13,7 @@ You can learn more about the technologies behind the fiboa specification, read t
 - [The Specification](https://github.com/fiboa/specification)
 - [List of Tutorials](https://github.com/fiboa/tutorials)
 - [List of Datasets](https://github.com/fiboa/data)
+  - [Map of the datasets](https://fiboa.org/map)
 - [List of Extensions / Guide to Creating Extensions](https://github.com/fiboa/extensions)
 - [List of Software / Tooling](https://github.com/fiboa/software)
   - [CLI: GeoParquet Validation, Conversion, etc. in Python](https://github.com/fiboa/cli)
