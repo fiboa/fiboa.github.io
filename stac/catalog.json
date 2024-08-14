@@ -153,6 +153,14 @@
       "title": "Field boundaries for Flanders, Belgium",
       "license": "Licentie modellicentie-gratis-hergebruik/v1.0",
       "source": "https://beta.source.coop/repositories/fiboa/be-vlg/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/br-ba-lem/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for the west of Bahia state, Brazil",
+      "license": "CC-BY-4.0",
+      "source": "https://beta.source.coop/repositories/fiboa/br-ba-lem/description/"
     }
   ]
 }
