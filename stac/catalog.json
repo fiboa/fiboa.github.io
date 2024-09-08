@@ -161,6 +161,14 @@
       "title": "Field boundaries for the west of Bahia state, Brazil",
       "license": "CC-BY-4.0",
       "source": "https://beta.source.coop/repositories/fiboa/br-ba-lem/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/denmark/stac/collection.json",
+      "type": "application/json",
+      "title": "Denmark Crop Fields (Marker)",
+      "license": "CC-0",
+      "source": "https://beta.source.coop/repositories/fiboa/denmark/description/"
     }
   ]
 }
