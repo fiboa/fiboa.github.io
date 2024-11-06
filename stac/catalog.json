@@ -169,6 +169,32 @@
       "title": "Denmark Crop Fields (Marker)",
       "license": "CC-0",
       "source": "https://beta.source.coop/repositories/fiboa/denmark/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-sax/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Saxony, Germany",
+      "license": "dl-de/by-2-0",
+      "attribution": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
+      "source": "https://beta.source.coop/repositories/fiboa/de-sax/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-mv/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Mecklenburg-Western Pomerania, Germany",
+      "license": "No restrictions apply",
+      "source": "https://beta.source.coop/repositories/fiboa/de-mv/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/de-sl/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Saarland, Germany",
+      "license": "cc-by-4.0",
+      "attribution": "© GDI-SL 2024",
+      "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
     }
   ]
 }
