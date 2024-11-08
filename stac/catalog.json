@@ -195,6 +195,15 @@
       "license": "cc-by-4.0",
       "attribution": "© GDI-SL 2024",
       "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/sweden/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Sweden",
+      "license": "CC0-1.0",
+      "attribution": "Jordbruksverket",
+      "source": "https://beta.source.coop/repositories/fiboa/sweden/description/"
     }
   ]
 }
