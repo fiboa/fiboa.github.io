@@ -204,6 +204,15 @@
       "license": "CC0-1.0",
       "attribution": "Jordbruksverket",
       "source": "https://beta.source.coop/repositories/fiboa/sweden/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/ireland/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for ireland",
+      "license": "CC-BY-4.0",
+      "attribution": "Ireland Department of Agriculture, Food and the Marine\"",
+      "source": "https://beta.source.coop/repositories/fiboa/ireland/description/"
     }
   ]
 }
