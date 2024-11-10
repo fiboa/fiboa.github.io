@@ -213,6 +213,15 @@
       "license": "CC-BY-4.0",
       "attribution": "Ireland Department of Agriculture, Food and the Marine\"",
       "source": "https://beta.source.coop/repositories/fiboa/ireland/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/estonia-ec/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Estonia",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Põllumajanduse Registrite ja Informatsiooni Amet",
+      "source": "https://source.coop/repositories/fiboa/estonia-ec/description/"
     }
   ]
 }
