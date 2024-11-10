@@ -211,8 +211,16 @@
       "type": "application/json",
       "title": "Field boundaries for ireland",
       "license": "CC-BY-4.0",
-      "attribution": "Ireland Department of Agriculture, Food and the Marine\"",
+      "attribution": "Ireland Department of Agriculture, Food and the Marine",
       "source": "https://beta.source.coop/repositories/fiboa/ireland/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/be-wa/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Belgium Wallonia",
+      "license": "No conditions apply to access and use",
+      "source": "https://beta.source.coop/repositories/fiboa/be-wa/description/"
     }
   ]
 }
