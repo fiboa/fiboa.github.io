@@ -221,6 +221,15 @@
       "title": "Field boundaries for Belgium Wallonia",
       "license": "No conditions apply to access and use",
       "source": "https://beta.source.coop/repositories/fiboa/be-wa/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/luxembourg/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Luxembourg",
+      "license": "CC-BY-4.0",
+      "attribution": "Luxembourg ministry of Agriculture",
+      "source": "https://beta.source.coop/repositories/fiboa/luxembourg/description/"
     }
   ]
 }
