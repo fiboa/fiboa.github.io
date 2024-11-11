@@ -30,14 +30,22 @@ Promise.allSettled(promises)
           bbox: c.extent.spatial.bbox[0],
           source: c.source
         };
+
         const pmtiles = c.links.find(l => l.rel === 'pmtiles');
         if (pmtiles) {
           data.pmtiles = pmtiles.href.replace('://beta.source.coop/', '://data.source.coop/');
         }
-        const parquet = Object.values(c.assets).find(a => a.type === 'application/vnd.apache.parquet');
-        if (parquet && parquet['table:row_count'] > 0) {
-          data.count = parquet['table:row_count'];
+
+        if (c.assets) {
+          const parquet = Object.values(c.assets).find(a => a.type === 'application/vnd.apache.parquet');
+          if (parquet && parquet['table:row_count'] > 0) {
+            data.count = parquet['table:row_count'];
+          }
         }
+        else if (c.count) {
+          data.count = c.count;
+        }
+
         return data;
       });
     fs.writeFileSync('sources.js', `export default ${JSON.stringify(results, null, 2)}`);
