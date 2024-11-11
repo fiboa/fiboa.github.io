@@ -1,0 +1,37 @@
+{
+  "fiboa_version": "0.2.0",
+  "fiboa_extensions": [],
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "id": "ftw",
+  "title": "Fields of the World",
+  "description": "Fields of The World (FTW) is a comprehensive benchmark dataset designed to enhance the development of machine learning models for instance segmentation of agricultural field boundaries. It aggregates and harmonizes a number of open datasets into 1.6 million parcel boundaries and over 70,000 samples covering diverse agricultural landscapes across 4 continents and 24 countries. ",
+  "license": "various",
+  "providers": [
+    {
+      "name": "Fields of the World",
+      "url": "https://fieldsofthe.world/",
+      "roles": ["producer"]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [-46.3979962, -34.3992236, 109.0434154, 62.8408051]
+      ]
+    },
+    "temporal": {
+      "interval": [["2020-01-01T00:00:00Z", null]]
+    }
+  },
+  "links": [
+    {
+      "href": "https://data.source.coop/kerner-lab/fields-of-the-world/ftw-sources.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "rel": "pmtiles"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.2.0/schema.json"
+  ]
+}

@@ -195,6 +195,14 @@
       "license": "cc-by-4.0",
       "attribution": "© GDI-SL 2024",
       "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
+    },
+    {
+      "rel": "child",
+      "href": "./datasets/ftw.json",
+      "type": "application/json",
+      "title": "Fields of the World",
+      "license": "various",
+      "source": "https://source.coop/repositories/kerner-lab/fields-of-the-world/description/"
     }
   ]
 }
