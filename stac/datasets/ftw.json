@@ -25,6 +25,7 @@
     }
   },
   "count": 1600000,
+  "attribution": "KERNER, Hannah, et al. Fields of The World: A Machine Learning Benchmark Dataset For Global Agricultural Field Boundary Segmentation. arXiv preprint arXiv:2409.16252, 2024.",
   "links": [
     {
       "href": "https://data.source.coop/kerner-lab/fields-of-the-world/ftw-sources.pmtiles",
