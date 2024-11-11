@@ -197,7 +197,6 @@
       "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
     },
     {
-      "rel": "child",
       "href": "https://data.source.coop/fiboa/sweden/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Sweden",
@@ -239,6 +238,14 @@
       "license": "CC-BY-SA-3.0",
       "attribution": "Põllumajanduse Registrite ja Informatsiooni Amet",
       "source": "https://source.coop/repositories/fiboa/estonia-ec/description/"
+    },
+    {
+      "rel": "child",
+      "href": "./datasets/ftw.json",
+      "type": "application/json",
+      "title": "Fields of the World",
+      "license": "various",
+      "source": "https://source.coop/repositories/kerner-lab/fields-of-the-world/description/"
     }
   ]
 }
