@@ -24,6 +24,7 @@
       "interval": [["2020-01-01T00:00:00Z", null]]
     }
   },
+  "count": 1600000,
   "links": [
     {
       "href": "https://data.source.coop/kerner-lab/fields-of-the-world/ftw-sources.pmtiles",
