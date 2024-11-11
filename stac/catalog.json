@@ -197,6 +197,49 @@
       "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
     },
     {
+      "href": "https://data.source.coop/fiboa/sweden/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Sweden",
+      "license": "CC0-1.0",
+      "attribution": "Jordbruksverket",
+      "source": "https://beta.source.coop/repositories/fiboa/sweden/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/ireland/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for ireland",
+      "license": "CC-BY-4.0",
+      "attribution": "Ireland Department of Agriculture, Food and the Marine",
+      "source": "https://beta.source.coop/repositories/fiboa/ireland/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/be-wa/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Belgium Wallonia",
+      "license": "No conditions apply to access and use",
+      "source": "https://beta.source.coop/repositories/fiboa/be-wa/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/luxembourg/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Luxembourg",
+      "license": "CC-BY-4.0",
+      "attribution": "Luxembourg ministry of Agriculture",
+      "source": "https://beta.source.coop/repositories/fiboa/luxembourg/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/estonia-ec/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Estonia",
+      "license": "CC-BY-SA-3.0",
+      "attribution": "Põllumajanduse Registrite ja Informatsiooni Amet",
+      "source": "https://source.coop/repositories/fiboa/estonia-ec/description/"
+    },
+    {
       "rel": "child",
       "href": "./datasets/ftw.json",
       "type": "application/json",
