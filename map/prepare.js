@@ -34,9 +34,14 @@ Promise.allSettled(promises)
         if (pmtiles) {
           data.pmtiles = pmtiles.href.replace('://beta.source.coop/', '://data.source.coop/');
         }
-        const parquet = Object.values(c.assets).find(a => a.type === 'application/vnd.apache.parquet');
-        if (parquet && parquet['table:row_count'] > 0) {
-          data.count = parquet['table:row_count'];
+        if (c.assets) {
+          const parquet = Object.values(c.assets).find(a => a.type === 'application/vnd.apache.parquet');
+          if (parquet && parquet['table:row_count'] > 0) {
+            data.count = parquet['table:row_count'];
+          }
+        }
+        else if (c.count) {
+          data.count = c.count;
         }
         return data;
       });
