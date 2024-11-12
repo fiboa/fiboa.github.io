@@ -247,6 +247,14 @@
       "title": "Fields of the World",
       "license": "various",
       "source": "https://source.coop/repositories/kerner-lab/fields-of-the-world/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/slovenia/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Slovenia",
+      "license": "Publicly available data",
+      "source": "https://beta.source.coop/repositories/fiboa/slovenia/description/"
     }
   ]
 }
