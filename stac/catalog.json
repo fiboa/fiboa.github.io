@@ -255,6 +255,14 @@
       "title": "Field boundaries for Slovenia",
       "license": "Publicly available data",
       "source": "https://beta.source.coop/repositories/fiboa/slovenia/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/lacunalabels/stac/collection.json",
+      "type": "application/json",
+      "title": "Lacuna labels",
+      "license": "Participant license agreement for the NICFI contract",
+      "source": "https://beta.source.coop/repositories/fiboa/lacunalabels/description/"
     }
   ]
 }
