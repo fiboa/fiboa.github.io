@@ -43,6 +43,10 @@ h1 small {
   font-weight: normal;
 }
 
+form {
+  display: inline-block;
+}
+
 #hint {
   bottom: 1rem;
   left: 1rem;
@@ -65,17 +69,29 @@ h1 small {
 .ol-popup p {
   margin: 0.5rem 0;
   padding: 0;
+}
+.ol-popup p:empty {
+  display: none;
+}
+.ol-popup button {
+  margin-right: 0.5rem;
+}
+.ol-popup .no-viz {
   color: red;
+}
+.ol-popup section {
+  margin-top: 1.5em;
+}
+.ol-popup section:first-of-type {
+  margin-top: 0;
 }
 .ol-popup h3 {
   font-size: 1.05rem;
-  margin: 1.5rem 0 0.5rem;
-}
-.ol-popup h3:first-of-type {
-  margin-top: 0;
+  margin: 0 0 0.5rem;
 }
 .ol-popup ul {
   margin: 0;
+  margin-top: 0.5rem;
   padding: 0;
 }
 .ol-popup ul li {

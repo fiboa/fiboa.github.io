@@ -116,17 +116,25 @@ map.addOverlay(overlay);
 // Add a click event listener to the map
 map.on('click', event => {
   const features = map.getFeaturesAtPixel(event.pixel);
-  let content = '';
+  const nodes = [];
   for (const feature of features) {
     const properties = feature.getProperties();
     const isCollection = Array.isArray(properties.bbox);
 
+    let content = '';
     content += `<h3>${properties.title || properties.id || 'unknown identifier'}</h3>`;
-    if (isCollection && properties.source) {
-      content += `<p><a href="${properties.source}" target="_blank">Get the data</a></p>`;
-    }
-    if (isCollection && !properties.pmtiles) {
-      content += `<p>No visualization available for this dataset.</p>`;
+    if (isCollection) {
+      content += `<p>`;
+      if (properties.source) {
+        content += `<form action="${properties.source}" target="_blank"><button>Get the data</button></form>`;
+      }
+      if (properties.pmtiles) {
+        content += `<button class="focus">Focus on map</button></p>`;
+      }
+      else {
+        content += `<span class="no-viz">No visualization available for this dataset.</span>`;
+      }
+      content += `</p>`;
     }
     content += `<ul>`;
     for (const key in properties) {
@@ -147,10 +155,21 @@ map.on('click', event => {
     }
 
     content += '</ul>';
-    
+
+    const container = document.createElement('section');
+    container.innerHTML = content;
+    nodes.push(container);
+
+    const focusLink = container.getElementsByClassName("focus");
+    if (focusLink.length > 0) {
+      focusLink[0].addEventListener('click', () => {
+        overlay.setPosition(undefined);
+        map.getView().fit(feature.getGeometry().getExtent(), { duration: 500 });
+      });
+    }
   }
-  overlay.setPosition(content ? event.coordinate : undefined);
-  popup.innerHTML = content;
+  overlay.setPosition(nodes.length > 0 ? event.coordinate : undefined);
+  popup.replaceChildren(...nodes);
 });
 
 // Change mouse cursor when hovering over features
