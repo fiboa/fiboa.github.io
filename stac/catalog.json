@@ -197,6 +197,7 @@
       "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
     },
     {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/sweden/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Sweden",
