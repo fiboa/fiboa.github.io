@@ -61,23 +61,24 @@ const fieldStyle = new Style({
 
 let count = 0;
 for (const c of collections) {
-  const feature = new Feature(fromExtent(c.bbox));
-  feature.setProperties(c);
-  const bbox = new VectorLayer({
+  const bboxes = c.bbox.length > 1 ? c.bbox.slice(1) : c.bbox;
+  const features = [];
+  for (const bbox of bboxes) {
+    const feature = new Feature(fromExtent(bbox));
+    feature.setProperties(c);
+    features.push(feature);
+  }
+  const bboxLayer = new VectorLayer({
     title: c.title,
     displayInLayerSwitcher: false,
     maxZoom: c.pmtiles ? minZoom : undefined,
-    source: new Vector({
-      features: [
-        feature
-      ]
-    }),
+    source: new Vector({ features }),
     style: new Style({
       stroke: c.pmtiles ? bboxStroke : bboxRedStroke,
       fill: bboxFill
     })
   });
-  map.addLayer(bbox);
+  map.addLayer(bboxLayer);
 
   if (c.count > 0) {
     count += c.count;

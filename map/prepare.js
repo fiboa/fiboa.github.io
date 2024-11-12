@@ -27,7 +27,7 @@ Promise.allSettled(promises)
           id: c.id,
           title: (c.title || "").replace('Field boundaries for ', ''),
           attribution: c.attribution,
-          bbox: c.extent.spatial.bbox[0],
+          bbox: c.extent.spatial.bbox,
           source: c.source
         };
 
