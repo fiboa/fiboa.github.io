@@ -22,7 +22,7 @@
       "title": "Austria",
       "license": "CC-BY-4.0",
       "attribution": "Agrarmarkt Austria",
-      "source": "https://beta.source.coop/repositories/fiboa/austria/description/"
+      "source": "https://source.coop/repositories/fiboa/austria/description/"
     },
     {
       "rel": "child",
@@ -31,7 +31,7 @@
       "title": "Germany, Berlin / Brandenburg",
       "license": "dl-de/by-2-0",
       "attribution": "Land Brandenburg",
-      "source": "https://beta.source.coop/repositories/fiboa/de-bb/description/"
+      "source": "https://source.coop/repositories/fiboa/de-bb/description/"
     },
     {
       "rel": "child",
@@ -40,7 +40,7 @@
       "title": "Germany, Lower Saxony",
       "license": "dl-de/by-2-0",
       "attribution": "Land Niedersachsen",
-      "source": "https://beta.source.coop/repositories/fiboa/de-nds/description/"
+      "source": "https://source.coop/repositories/fiboa/de-nds/description/"
     },
     {
       "rel": "child",
@@ -49,7 +49,7 @@
       "title": "Germany, North Rhine-Westphalia",
       "license": "dl-de/by-2-0",
       "attribution": "Land Nordrhein-Westfalen / Open.NRW",
-      "source": "https://beta.source.coop/repositories/fiboa/de-nrw/description/"
+      "source": "https://source.coop/repositories/fiboa/de-nrw/description/"
     },
     {
       "rel": "child",
@@ -58,7 +58,7 @@
       "title": "Germany, Thuringia",
       "license": "dl-de/by-2-0",
       "attribution": "Thüringer Landesamt für Landwirtschaft und Ländlichen Raum",
-      "source": "https://beta.source.coop/repositories/fiboa/de-th/description/"
+      "source": "https://source.coop/repositories/fiboa/de-th/description/"
     },
     {
       "rel": "child",
@@ -67,7 +67,7 @@
       "title": "Germany, Schleswig-Holstein",
       "license": "dl-de/zero-2-0",
       "attribution": "Land Schleswig-Holstein",
-      "source": "https://beta.source.coop/repositories/fiboa/de-sh/description/"
+      "source": "https://source.coop/repositories/fiboa/de-sh/description/"
     },
     {
       "rel": "child",
@@ -85,7 +85,7 @@
       "title": "Field boundaries for Slovenia from EuroCrops (2021)",
       "license": "CC-BY-SA-4.0",
       "attribution": "Ministrstvo za kmetijstvo, gozdarstvo in prehrano",
-      "source": "https://beta.source.coop/repositories/fiboa/slovenia-ec/description/"
+      "source": "https://source.coop/repositories/fiboa/slovenia-ec/description/"
     },
     {
       "rel": "child",
@@ -94,7 +94,7 @@
       "title": "Field boundaries for Latvia from EuroCrops (2021)",
       "license": "CC-BY-4.0",
       "attribution": "Lauku atbalsta dienests",
-      "source": "https://beta.source.coop/repositories/fiboa/ec-lv/description/"
+      "source": "https://source.coop/repositories/fiboa/ec-lv/description/"
     },
     {
       "rel": "child",
@@ -103,7 +103,7 @@
       "title": "Finnish Crop Fields (Maatalousmaa)",
       "license": "CC-BY-4.0",
       "attribution": "Finnish Food Authority",
-      "source": "https://beta.source.coop/repositories/fiboa/finland/description/"
+      "source": "https://source.coop/repositories/fiboa/finland/description/"
     },
     {
       "rel": "child",
@@ -112,7 +112,7 @@
       "title": "Field boundaries for France from Eurocrops (2018)",
       "license": "CC-BY-SA-4.0",
       "attribution": "Institut National de l'Information Géographique et Forestière",
-      "source": "https://beta.source.coop/repositories/fiboa/france-ec/description/"
+      "source": "https://source.coop/repositories/fiboa/france-ec/description/"
     },
     {
       "rel": "child",
@@ -120,7 +120,7 @@
       "type": "application/json",
       "title": "Field boundaries for The Netherlands",
       "license": "CC0-1.0",
-      "source": "https://beta.source.coop/repositories/fiboa/nl-ref/description/"
+      "source": "https://source.coop/repositories/fiboa/nl-ref/description/"
     },
     {
       "rel": "child",
@@ -128,7 +128,7 @@
       "type": "application/json",
       "title": "BRP Crop Field Boundaries for The Netherlands (CAP-based)",
       "license": "CC0-1.0",
-      "source": "https://beta.source.coop/repositories/fiboa/nl-crop/description/"
+      "source": "https://source.coop/repositories/fiboa/nl-crop/description/"
     },
     {
       "rel": "child",
@@ -136,7 +136,7 @@
       "type": "application/json",
       "title": "Field boundaries for Cambodia and Vietnam (AI4SmallFarms)",
       "license": "CC-BY-4.0",
-      "source": "https://beta.source.coop/repositories/fiboa/ai4sf/description/"
+      "source": "https://source.coop/repositories/fiboa/ai4sf/description/"
     },
     {
       "rel": "child",
@@ -144,7 +144,7 @@
       "type": "application/json",
       "title": "Field boundaries for Portugal",
       "license": "No conditions apply",
-      "source": "https://beta.source.coop/repositories/fiboa/portugal/description/"
+      "source": "https://source.coop/repositories/fiboa/portugal/description/"
     },
     {
       "rel": "child",
@@ -152,7 +152,7 @@
       "type": "application/json",
       "title": "Field boundaries for Flanders, Belgium",
       "license": "Licentie modellicentie-gratis-hergebruik/v1.0",
-      "source": "https://beta.source.coop/repositories/fiboa/be-vlg/description/"
+      "source": "https://source.coop/repositories/fiboa/be-vlg/description/"
     },
     {
       "rel": "child",
@@ -160,7 +160,7 @@
       "type": "application/json",
       "title": "Field boundaries for the west of Bahia state, Brazil",
       "license": "CC-BY-4.0",
-      "source": "https://beta.source.coop/repositories/fiboa/br-ba-lem/description/"
+      "source": "https://source.coop/repositories/fiboa/br-ba-lem/description/"
     },
     {
       "rel": "child",
@@ -168,7 +168,7 @@
       "type": "application/json",
       "title": "Denmark Crop Fields (Marker)",
       "license": "CC-0",
-      "source": "https://beta.source.coop/repositories/fiboa/denmark/description/"
+      "source": "https://source.coop/repositories/fiboa/denmark/description/"
     },
     {
       "rel": "child",
@@ -177,7 +177,7 @@
       "title": "Field boundaries for Saxony, Germany",
       "license": "dl-de/by-2-0",
       "attribution": "Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie",
-      "source": "https://beta.source.coop/repositories/fiboa/de-sax/description/"
+      "source": "https://source.coop/repositories/fiboa/de-sax/description/"
     },
     {
       "rel": "child",
@@ -185,7 +185,7 @@
       "type": "application/json",
       "title": "Field boundaries for Mecklenburg-Western Pomerania, Germany",
       "license": "No restrictions apply",
-      "source": "https://beta.source.coop/repositories/fiboa/de-mv/description/"
+      "source": "https://source.coop/repositories/fiboa/de-mv/description/"
     },
     {
       "rel": "child",
@@ -194,7 +194,7 @@
       "title": "Field boundaries for Saarland, Germany",
       "license": "cc-by-4.0",
       "attribution": "© GDI-SL 2024",
-      "source": "https://beta.source.coop/repositories/fiboa/de-sl/description/"
+      "source": "https://source.coop/repositories/fiboa/de-sl/description/"
     },
     {
       "rel": "child",
@@ -203,7 +203,7 @@
       "title": "Field boundaries for Sweden",
       "license": "CC0-1.0",
       "attribution": "Jordbruksverket",
-      "source": "https://beta.source.coop/repositories/fiboa/sweden/description/"
+      "source": "https://source.coop/repositories/fiboa/sweden/description/"
     },
     {
       "rel": "child",
@@ -212,7 +212,7 @@
       "title": "Field boundaries for ireland",
       "license": "CC-BY-4.0",
       "attribution": "Ireland Department of Agriculture, Food and the Marine",
-      "source": "https://beta.source.coop/repositories/fiboa/ireland/description/"
+      "source": "https://source.coop/repositories/fiboa/ireland/description/"
     },
     {
       "rel": "child",
@@ -220,7 +220,7 @@
       "type": "application/json",
       "title": "Field boundaries for Belgium Wallonia",
       "license": "No conditions apply to access and use",
-      "source": "https://beta.source.coop/repositories/fiboa/be-wa/description/"
+      "source": "https://source.coop/repositories/fiboa/be-wa/description/"
     },
     {
       "rel": "child",
@@ -229,7 +229,7 @@
       "title": "Field boundaries for Luxembourg",
       "license": "CC-BY-4.0",
       "attribution": "Luxembourg ministry of Agriculture",
-      "source": "https://beta.source.coop/repositories/fiboa/luxembourg/description/"
+      "source": "https://source.coop/repositories/fiboa/luxembourg/description/"
     },
     {
       "rel": "child",
@@ -254,7 +254,7 @@
       "type": "application/json",
       "title": "Field boundaries for Slovenia",
       "license": "Publicly available data",
-      "source": "https://beta.source.coop/repositories/fiboa/slovenia/description/"
+      "source": "https://source.coop/repositories/fiboa/slovenia/description/"
     },
     {
       "rel": "child",
@@ -262,7 +262,7 @@
       "type": "application/json",
       "title": "Lacuna labels",
       "license": "Participant license agreement for the NICFI contract",
-      "source": "https://beta.source.coop/repositories/fiboa/lacunalabels/description/"
+      "source": "https://source.coop/repositories/fiboa/lacunalabels/description/"
     },
     {
       "rel": "child",
@@ -270,8 +270,7 @@
       "type": "application/json",
       "title": "Field boundaries for Switzerland",
       "license": "Open BY",
-      "source": "https://beta.source.coop/repositories/fiboa/switzerland/description/"
+      "source": "https://source.coop/repositories/fiboa/switzerland/description/"
     }
-
   ]
 }
