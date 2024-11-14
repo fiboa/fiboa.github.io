@@ -287,6 +287,14 @@
       "title": "Field boundaries for Croatia",
       "license": "Publicly available data",
       "source": "https://source.coop/repositories/fiboa/croatia/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/slovakia/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Slovakia",
+      "license": "Publicly available data",
+      "source": "https://source.coop/repositories/fiboa/slovakia/description/"
     }
   ]
 }
