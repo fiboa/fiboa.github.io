@@ -276,7 +276,7 @@
       "rel": "child",
       "href": "https://data.source.coop/fiboa/es-cat/stac/collection.json",
       "type": "application/json",
-      "title": "Field boundaries for Catalonia",
+      "title": "Field boundaries for Catalonia, Spain",
       "license": "Open Information Use License - Catalonia",
       "source": "https://source.coop/repositories/fiboa/es-cat/description/"
     }
