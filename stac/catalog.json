@@ -271,6 +271,14 @@
       "title": "Field boundaries for Switzerland",
       "license": "Open BY",
       "source": "https://source.coop/repositories/fiboa/switzerland/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-cat/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Catalonia",
+      "license": "Open Information Use License - Catalonia",
+      "source": "https://source.coop/repositories/fiboa/es-cat/description/"
     }
   ]
 }
