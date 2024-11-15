@@ -295,6 +295,14 @@
       "title": "Field boundaries for Slovakia",
       "license": "Publicly available data",
       "source": "https://source.coop/repositories/fiboa/slovakia/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/czech/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Czech",
+      "license": "CC-0",
+      "source": "https://source.coop/repositories/fiboa/czech/description/"
     }
   ]
 }
