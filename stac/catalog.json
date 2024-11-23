@@ -303,6 +303,14 @@
       "title": "Field boundaries for Czech",
       "license": "CC-0",
       "source": "https://source.coop/repositories/fiboa/czech/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/us-ca-scm/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for California Statewide Crop Mapping",
+      "license": "CC-0",
+      "source": "https://source.coop/repositories/fiboa/us-ca-scm/description/"
     }
   ]
 }
