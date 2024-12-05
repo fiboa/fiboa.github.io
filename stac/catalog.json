@@ -89,12 +89,12 @@
     },
     {
       "rel": "child",
-      "href": "https://data.source.coop/fiboa/ec-lv/stac/collection.json",
+      "href": "https://data.source.coop/fiboa/latvia/stac/collection.json",
       "type": "application/json",
-      "title": "Field boundaries for Latvia from EuroCrops (2021)",
+      "title": "Field boundaries for Latvia 2024",
       "license": "CC-BY-4.0",
       "attribution": "Lauku atbalsta dienests",
-      "source": "https://source.coop/repositories/fiboa/ec-lv/description/"
+      "source": "https://source.coop/repositories/fiboa/latvia/description/"
     },
     {
       "rel": "child",
@@ -319,6 +319,15 @@
       "title": "Field boundaries for California Statewide Crop Mapping",
       "license": "CC-0",
       "source": "https://source.coop/repositories/fiboa/us-ca-scm/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/japan/stac/collection.json",
+      "type": "application/json",
+      "title": "Japan Fude Parcels",
+      "license": "CC-BY-4.0",
+      "attribution": "Fude Polygon Data (2021-2024). Japanese Ministry of Agriculture, Forestry and Fisheries. Processed by Pacific Spatial Solutions, Inc",
+      "source": "https://source.coop/repositories/fiboa/japan/description/"
     }
   ]
 }
