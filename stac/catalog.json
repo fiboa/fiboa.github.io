@@ -319,6 +319,15 @@
       "title": "Field boundaries for California Statewide Crop Mapping",
       "license": "CC-0",
       "source": "https://source.coop/repositories/fiboa/us-ca-scm/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/japan/stac/collection.json",
+      "type": "application/json",
+      "title": "Japan Fude Parcels",
+      "license": "CC-BY-4.0",
+      "attribution": "Fude Polygon Data (2021-2024). Japanese Ministry of Agriculture, Forestry and Fisheries. Processed by Pacific Spatial Solutions, Inc",
+      "source": "https://source.coop/repositories/fiboa/japan/description/"
     }
   ]
 }
