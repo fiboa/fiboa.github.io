@@ -89,12 +89,12 @@
     },
     {
       "rel": "child",
-      "href": "https://data.source.coop/fiboa/ec-lv/stac/collection.json",
+      "href": "https://data.source.coop/fiboa/latvia/stac/collection.json",
       "type": "application/json",
-      "title": "Field boundaries for Latvia from EuroCrops (2021)",
+      "title": "Field boundaries for Latvia 2024",
       "license": "CC-BY-4.0",
       "attribution": "Lauku atbalsta dienests",
-      "source": "https://source.coop/repositories/fiboa/ec-lv/description/"
+      "source": "https://source.coop/repositories/fiboa/latvia/description/"
     },
     {
       "rel": "child",
