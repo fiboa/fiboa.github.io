@@ -328,6 +328,15 @@
       "license": "CC-BY-4.0",
       "attribution": "Fude Polygon Data (2021-2024). Japanese Ministry of Agriculture, Forestry and Fisheries. Processed by Pacific Spatial Solutions, Inc",
       "source": "https://source.coop/repositories/fiboa/japan/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/newzealand/stac/collection.json",
+      "type": "application/json",
+      "title": "New Zealand National irrigated land",
+      "license": "CC-BY-4.0",
+      "attribution": "New Zealand Ministry for the Environment",
+      "source": "https://source.coop/repositories/fiboa/newzealand/description/"
     }
   ]
 }
