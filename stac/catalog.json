@@ -278,7 +278,44 @@
       "type": "application/json",
       "title": "Field boundaries for Catalonia, Spain",
       "license": "Open Information Use License - Catalonia",
+      "attribution": "Catalonia Department of Agriculture, Livestock, Fisheries and Food",
       "source": "https://source.coop/repositories/fiboa/es-cat/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-cl/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Castilla y León",
+      "attribution": "Commercial exploitation is prohibited",
+      "license": "Non Commercial",
+      "source": "https://source.coop/repositories/fiboa/es-cl/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-an/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Andalucia",
+      "license": "CC-SA-BY-ND",
+      "attribution": "©Junta de Andalucía",
+      "source": "https://source.coop/repositories/fiboa/es-cl/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-ar/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Aragon",
+      "license": "CC-BY-4.0",
+      "attribution": "(c) Gobierno de Aragon",
+      "source": "https://source.coop/repositories/fiboa/es-ar/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-pv/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Basque Country",
+      "license": "CC-BY-4.0",
+      "attribution": "Basque Government / Gobierno Vasco",
+      "source": "https://source.coop/repositories/fiboa/es-pv/description/"
     },
     {
       "rel": "child",
