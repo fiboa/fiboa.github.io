@@ -319,6 +319,24 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-ex/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Extremadura",
+      "license": "CC-BY-4.0",
+      "attribution": "Junta de Extremadura",
+      "source": "https://source.coop/repositories/fiboa/es-ex/description/"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-pm/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Balearic Islands",
+      "license": "CC-BY-4.0",
+      "attribution": "Govern de les Illes Balears",
+      "source": "https://source.coop/repositories/fiboa/es-pm/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
