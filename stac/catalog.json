@@ -337,6 +337,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-cn/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Canary Islands",
+      "license": "CC-BY-4.0",
+      "attribution": "Gobierno de Canarias",
+      "source": "https://source.coop/repositories/fiboa/es-cn/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
