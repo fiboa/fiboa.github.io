@@ -346,6 +346,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-vc/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Valencia",
+      "license": "CC-BY-4.0",
+      "attribution": "1403_2024PAC0050 CC BY 4.0 © Institut Cartogràfic Valencià, Generalitat",
+      "source": "https://source.coop/repositories/fiboa/es-vc/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
