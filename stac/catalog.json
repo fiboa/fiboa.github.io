@@ -364,6 +364,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-cb/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Cantabria",
+      "license": "CC-BY-NC-4.0",
+      "attribution": "©Government of Cantabria. Free information available at https://mapas.cantabria.es",
+      "source": "https://source.coop/repositories/fiboa/es-cb/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
