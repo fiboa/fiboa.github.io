@@ -373,6 +373,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-ga/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Galicia",
+      "license": "CC-BY-4.0",
+      "attribution": "Información procedente do FOGGA",
+      "source": "https://source.coop/repositories/fiboa/es-ga/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
