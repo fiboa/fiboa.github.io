@@ -355,6 +355,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-md/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Madrid",
+      "license": "CC-0",
+      "attribution": "Comunidad de Madrid",
+      "source": "https://source.coop/repositories/fiboa/es-md/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
