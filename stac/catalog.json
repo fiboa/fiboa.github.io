@@ -391,6 +391,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-nc/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Navarra",
+      "license": "CC-BY-4.0",
+      "attribution": "Comunidad Foral de Navarra",
+      "source": "https://source.coop/repositories/fiboa/es-nc/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
