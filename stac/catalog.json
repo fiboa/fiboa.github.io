@@ -382,6 +382,15 @@
     },
     {
       "rel": "child",
+      "href": "https://data.source.coop/fiboa/es-cm/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Spain Castilla-La Mancha",
+      "license": "CC-BY-SA-4.0",
+      "attribution": "Unidad de Cartografía. Secretaría General. Consejería de Agricultura , Ganadería y Desarrollo Rural.",
+      "source": "https://source.coop/repositories/fiboa/es-cm/description/"
+    },
+    {
+      "rel": "child",
       "href": "https://data.source.coop/fiboa/croatia/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Croatia",
