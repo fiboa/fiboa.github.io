@@ -1,4 +1,5 @@
 const fs = require('fs');
+const crypto = require('crypto');
 
 const data = fs.readFileSync('../stac/catalog.json', 'utf8');
 const json = JSON.parse(data);
@@ -52,3 +53,13 @@ Promise.allSettled(promises)
     fs.writeFileSync('sources.js', `export default ${JSON.stringify(results, null, 2)}`);
   })
   .catch(console.error);
+
+function strToColor(str) {
+    return '#' + crypto.createHash('md5').update(str).digest('hex').substring(0, 6);
+}
+const hcat = fs.readFileSync('../code/hcat/HCAT3.csv', 'utf8');
+const hcatMapping = hcat.split('\n').slice(1).map((line) => {
+  const [name, code] = line.split(',');
+  return { name, code, color: strToColor(code || "") };
+});
+fs.writeFileSync('crop/codes.js', `export const hcat = ${JSON.stringify(hcatMapping, null, 2)}`);
