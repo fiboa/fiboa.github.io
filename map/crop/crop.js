@@ -6,8 +6,8 @@ import {PMTilesVectorSource} from "ol-pmtiles";
 const cropExtension = "https://fiboa.github.io/hcat-extension/v0.1.0/schema.yaml";
 
 const fieldStyle = {
-  "stroke-color": 'rgb(0, 165, 255)',
-  "stroke-width": 1,
+  "stroke-color": 'rgb(88, 88, 88, 88)',
+  "stroke-width": 0.5,
   "fill-color":  ['get', 'color']
 }
 const mapping = Object.fromEntries(hcat.map(c => [c.code, c.color]));
