@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default {
-  // base: '/map',
+  base: '/map',
   build: {
     sourcemap: true,
     rollupOptions: {
