@@ -28,7 +28,8 @@ Promise.allSettled(promises)
           title: (c.title || "").replace('Field boundaries for ', ''),
           attribution: c.attribution,
           bbox: c.extent.spatial.bbox,
-          source: c.source
+          source: c.source,
+          fiboa_extensions: c.fiboa_extensions,
         };
 
         const pmtiles = c.links.find(l => l.rel === 'pmtiles');
