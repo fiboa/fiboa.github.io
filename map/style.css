@@ -98,3 +98,8 @@ form {
   list-style: none;
   margin: 0 0 0.25rem;
 }
+
+.ol-crop-legend {
+  right: .5em;
+  bottom: .5em;
+}
