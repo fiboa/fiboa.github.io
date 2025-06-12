@@ -8,7 +8,7 @@
     "serve": "npm run prepare && vite preview"
   },
   "devDependencies": {
-    "vite": "^5.4.0"
+    "vite": "^6.2.4"
   },
   "dependencies": {
     "ol": "^10.0.0",
