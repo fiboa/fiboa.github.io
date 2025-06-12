@@ -12,7 +12,9 @@ const fieldStyle = {
   "stroke-width": 0.5,
   "fill-color":  ['get', 'color']
 }
-const mapping = Object.fromEntries(hcat.map(c => [c.code, c]));
+const hcats = hcat.map(c => [c.code, c])
+const mp = Object.fromEntries(hcats);
+const mapping = [4,6,8,10].map(l => Object.fromEntries(hcat.map(c => [c.code, mp[c.code.slice(0,l).padEnd(c.code.length, "0")]])));
 
 class CropMap extends FiboaMap {
   constructor() {
@@ -31,9 +33,6 @@ class CropMap extends FiboaMap {
       source: source,
       style: this.fieldStyle,
     });
-    // TODO, Count the features in view and display a legend explaining the top 5 crops
-    // TODO, Add a filter based on crops. This will not be perfect on high zoom levels (lossy vector tiles)
-
     this.map.addLayer(fields);
   }
 }

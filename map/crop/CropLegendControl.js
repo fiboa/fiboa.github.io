@@ -40,8 +40,9 @@ export class CropLegendControl extends Control {
     });
 
     this.attribute = options.attribute;
-    this.mapping = options.mapping || {};
+    this.mapping = options.mapping || [];
     this.legendItems = [];
+    this.level = this.mapping.length - 1;
     this.render();
     this.tileLoadEnd = this.tileLoadEnd.bind(this);
     this.changeSource = this.changeSource.bind(this);
@@ -49,32 +50,35 @@ export class CropLegendControl extends Control {
   }
   updateFeatureCount(e) {
     const map = this.getMap();
-    const vectortiles = map.getLayers().getArray().filter(f => f instanceof VectorTile);
+    const mapping = this.mapping[this.level];
+    const vectorTiles = map.getLayers().getArray().filter(f => f instanceof VectorTile);
     const extent = map.getView().calculateExtentInternal();
-    let totalArea = 0, count = 0, cropArea = {}, cropCount = {};
-    for (const vt of vectortiles) {
+    let totalArea = 0, count = 0, cropArea = {}, cropCount = {}, byName = {};
+    for (const vt of vectorTiles) {
       forFeaturesInExtent(vt, extent, (feature) => {
           const area = feature.properties_["area"] || toGeometry(feature).getArea();
           const crop = feature.properties_[this.attribute];
+          const name = mapping[crop]?.name;
+          if (!byName[name]) byName[name] = mapping[crop];
           count++;
           totalArea += area;
-          cropCount[crop] = (cropCount[crop] || 0) + 1;
-          cropArea[crop] = (cropArea[crop] || 0) + area;
+          cropCount[name] = (cropCount[name] || 0) + 1;
+          cropArea[name] = (cropArea[name] || 0) + area;
       });
     }
     const topCrops = Object.entries(cropArea)
-      .map(([crop, area]) => ({ crop, area }))
+      .map(([name, area]) => ({ name, area }))
       .sort((a, b) => b.area - a.area) // Descending order
       .slice(0, 5);
 
-    this.legendItems = topCrops.map(({crop, area}) =>
+    this.legendItems = topCrops.map(({name, area}) =>
       {
-        const c = this.mapping[crop];
+        const c = byName[name];
         const percent = (area / totalArea) * 100;
         return {
           label: c.name.replaceAll("_", " "),
           color: c.color || "#99bbccaa",
-          percent: percent.toFixed(2) + "%",
+          percent: percent >= 1 ? percent.toFixed(0) + "%" : "<1%",
           area: area.toFixed(2),
         }
       }
@@ -84,9 +88,10 @@ export class CropLegendControl extends Control {
 
   tileLoadEnd(e) {
     const features = e.tile.getFeatures();
+    const m = this.mapping.at(-1);
     for (const feature of features) {
       const p = feature.getProperties();
-      p.color = this.mapping[p[this.attribute]]?.color || "#99bbccaa";
+      p.color = m[p[this.attribute]]?.color || "#99bbccaa";
     }
     this.updateFeatureCount(e)
   }
@@ -113,34 +118,32 @@ export class CropLegendControl extends Control {
   }
   render() {
     const element = this.element;
-    element.innerHTML = ''; // Clear previous content
-
-    const legendTitle = document.createElement('div');
-    legendTitle.className = 'legend-title';
-    legendTitle.innerText = 'Legend';
-    element.appendChild(legendTitle);
-
-    const list = document.createElement('ul');
-    list.className = 'legend-list';
-
-    this.legendItems.forEach((item) => {
-      const listItem = document.createElement('li');
-      const colorBox = document.createElement('span');
-      const text = document.createElement('span');
-
-      colorBox.className = 'legend-color';
-      colorBox.style.backgroundColor = item.color;
-
-      text.className = 'legend-text';
-      text.innerText = item.label;
-
-      listItem.appendChild(colorBox);
-      listItem.appendChild(text);
-
-      list.appendChild(listItem);
-    });
-
-    element.appendChild(list);
+    if (!this.legendItems?.length) {
+       element.innerHTML = "";
+       return;
+    }
+    let levels = "";
+    if (this.mapping.length) {
+      levels = `<span style="font-weight: normal">Levels: </span>`;
+      for (let i = 0; i < this.mapping.length; i++) {
+        levels += `<button class="legend-level${i===this.level?" active":""}">${i}</button>`;
+      }
+    }
+    element.innerHTML = `
+      <div class="legend-title">Legend ${levels}</div>
+      ${this.legendItems.map(({color, label, percent}) => `
+        <ul class="legend-list">
+          <li>
+            <span class="legend-color" style="background-color: ${color};"></span>
+            <span class="legend-text">${label} ${percent}</span>
+          </li>
+        </ul>
+      `).join("")}
+    `;
+    this.element.querySelectorAll(".legend-level").forEach(e => e.addEventListener("click", (e) => {
+      this.level = parseInt(e.target.innerText);
+      this.updateFeatureCount();
+    }))
   }
 
 }
