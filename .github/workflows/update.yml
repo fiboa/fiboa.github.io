@@ -1,0 +1,77 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # at 00:00 everyday
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+        
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v4
+
+    - name: Update extensions / software
+      run: |
+        pip install -r .github/build-script/requirements.txt
+        python .github/build-script/create_overviews.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update datasets
+      run: python .github/build-script/create_data.py
+      
+    - name: Build Jekyll site
+      run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      env:
+        JEKYLL_ENV: production
+
+    - name: Build Map
+      run: |
+        cd map
+        npm ci
+        npm run build
+        cd ..
+        rm -r ./_site/map/*
+        cp -r ./map/dist/* ./_site/map
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./_site
+        
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      id: deployment
+      uses: actions/deploy-pages@v4

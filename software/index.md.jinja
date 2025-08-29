@@ -1,0 +1,16 @@
+---
+layout: home
+title: Software
+permalink: /software/
+---
+
+The following table lists all known software and tooling that implements fiboa:
+
+| Title | Description |
+| ----- | ----------- |
+{%- for s in data %}
+| [{{s.title}}]({{s.url}}) | {{s.description}} |
+{%- endfor %}
+
+* **Last updated:** {{updated}}
+* **Count:** {{count}}

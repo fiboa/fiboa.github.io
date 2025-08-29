@@ -1,0 +1,25 @@
+title: fiboa
+description: >-
+  Field Boundaries for Agriculture (fiboa) - An ecosystem of data schema specifications, tools and data for more interoperability between field boundaries and related agriculture & other data.
+baseurl: ""
+url: "https://fiboa.org"
+markdown: kramdown
+theme: minima
+minima:
+  skin: auto
+
+author:
+  name: Taylor Geospatial Engine
+  website: https://tgengine.org
+
+header_pages: []
+
+footer_pages: []
+
+exclude:
+  - .git/
+  - .gitignore
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
