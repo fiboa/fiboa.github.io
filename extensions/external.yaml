@@ -1,0 +1,7 @@
+github: []
+#  - org: example
+#    repo: example
+external:
+  - title: fiboa
+    url: https://github.com/fiboa/specification
+    description: A specification that describes important properties of field boundaries.

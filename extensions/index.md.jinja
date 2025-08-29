@@ -1,0 +1,18 @@
+---
+layout: home
+title: Extensions
+permalink: /extensions/
+---
+
+The following table lists all known fiboa extensions:
+
+| Title | Description |
+| ----- | ----------- |
+{%- for e in data %}
+| [{{e.title}}]({{e.url}}) | {{e.description}} |
+{%- endfor %}
+
+* **Last updated:** {{updated}}
+* **Count:** {{count}}
+
+See the page [Creating a custom fiboa extensions](create.md) if you want to define your own extension.
