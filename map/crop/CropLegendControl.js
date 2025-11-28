@@ -87,13 +87,17 @@ export class CropLegendControl extends Control {
     this.render();
   }
 
-  tileLoadEnd(e) {
-    const features = e.tile.getFeatures();
-    const m = this.mapping.at(-1);
+  updateColors(tile) {
+    const features = tile.getFeatures();
+    const m = this.mapping.at(this.level);
     for (const feature of features) {
       const p = feature.getProperties();
       p.color = m[p[this.attribute]]?.color || "#99bbccaa";
     }
+  }
+
+  tileLoadEnd(e) {
+    this.updateColors(e.tile)
     this.updateFeatureCount(e)
   }
 
@@ -118,6 +122,7 @@ export class CropLegendControl extends Control {
     }
   }
   render() {
+    const map = this.getMap();
     const element = this.element;
     if (!this.legendItems?.length) {
        element.innerHTML = "";
@@ -125,10 +130,11 @@ export class CropLegendControl extends Control {
     }
     let levels = "";
     if (this.mapping.length) {
-      levels = `<span style="font-weight: normal">Level: </span>`;
+      levels = `<span style="font-weight: normal">Hcat level: </span>`;
       for (let i = 0; i < this.mapping.length; i++) {
         levels += `<button class="legend-level${i===this.level?" active":""}">${i}</button>`;
       }
+      levels = `<div style="float:right;">${levels}</div>`;
     }
     element.innerHTML = `
       <div class="legend-title">Legend ${levels}</div>
@@ -143,6 +149,19 @@ export class CropLegendControl extends Control {
     `;
     this.element.querySelectorAll(".legend-level").forEach(e => e.addEventListener("click", (e) => {
       this.level = parseInt(e.target.innerText);
+      for (const vt of map.getLayers().getArray()) {
+        let changed = false;
+        if (vt instanceof VectorTile) {
+          vt.getRenderer().getTileCache().forEach((tile) => {
+            if (tile.getState() !== TileState.LOADED) return;
+            for (const sourceTile of tile.getSourceTiles()) {
+              this.updateColors(sourceTile)
+              changed = true;
+            }
+          })
+        }
+        if (changed) vt.changed();
+      }
       this.updateFeatureCount();
     }))
   }
