@@ -1,12 +1,12 @@
-import collections from '../sources'
+import collections from './sources'
 import {FiboaMap} from "../map";
 import {hcat} from "./codes";
 import VectorTile from "ol/layer/VectorTile";
 import {PMTilesVectorSource} from "ol-pmtiles";
-const cropExtension = "https://fiboa.github.io/hcat-extension/v0.1.0/schema.yaml";
+const hcatExtension = "https://fiboa.org/hcat-extension/v0.3.0/schema.yaml"
 import {CropLegendControl} from "./CropLegendControl";
 
-const CROP_ATTRIBUTE = "ec:hcat_code";
+const CROP_ATTRIBUTE = "hcat:code";
 const fieldStyle = {
   "stroke-color": 'rgb(88, 88, 88, 88)',
   "stroke-width": 0.5,
@@ -37,6 +37,6 @@ class CropMap extends FiboaMap {
   }
 }
 
-const cropCollections = collections.filter(c => c.fiboa_extensions?.includes(cropExtension));
+const cropCollections = collections.filter(c => c.extensions?.includes(hcatExtension));
 const m = new CropMap();
 m.addCollections(cropCollections);

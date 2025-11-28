@@ -59,6 +59,7 @@ export class CropLegendControl extends Control {
           const area = feature.properties_["area"] || toGeometry(feature).getArea();
           const crop = feature.properties_[this.attribute];
           const name = mapping[crop]?.name;
+          if (!name) return;
           if (!byName[name]) byName[name] = mapping[crop];
           count++;
           totalArea += area;
@@ -124,7 +125,7 @@ export class CropLegendControl extends Control {
     }
     let levels = "";
     if (this.mapping.length) {
-      levels = `<span style="font-weight: normal">Levels: </span>`;
+      levels = `<span style="font-weight: normal">Level: </span>`;
       for (let i = 0; i < this.mapping.length; i++) {
         levels += `<button class="legend-level${i===this.level?" active":""}">${i}</button>`;
       }
