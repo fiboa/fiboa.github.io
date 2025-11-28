@@ -1,6 +1,6 @@
 import collections from './sources'
 import {FiboaMap} from "../map";
-import {hcat} from "./codes";
+import {hcat} from "./codes2";
 import VectorTile from "ol/layer/VectorTile";
 import {PMTilesVectorSource} from "ol-pmtiles";
 const hcatExtension = "https://fiboa.org/hcat-extension/v0.3.0/schema.yaml"
