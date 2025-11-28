@@ -46,7 +46,7 @@ export class CropLegendControl extends Control {
     this.render();
     this.tileLoadEnd = this.tileLoadEnd.bind(this);
     this.changeSource = this.changeSource.bind(this);
-    this.updateFeatureCount = debounce(this.updateFeatureCount, 1000).bind(this);
+    this.updateFeatureCount = debounce(this.updateFeatureCount, 300).bind(this);
   }
   updateFeatureCount(e) {
     const map = this.getMap();
