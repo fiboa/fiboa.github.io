@@ -98,3 +98,53 @@ form {
   list-style: none;
   margin: 0 0 0.25rem;
 }
+
+.ol-crop-legend {
+  right: .5em;
+  bottom: .5em;
+
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ol-crop-legend .legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ol-crop-legend .legend-level {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px black;
+}
+
+.ol-crop-legend .legend-level.active {
+  background-color: lightblue;
+}
+
+.ol-crop-legend .legend-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ol-crop-legend .legend-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ol-crop-legend .legend-color {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border: 1px solid #000000;
+}

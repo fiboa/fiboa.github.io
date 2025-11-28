@@ -28,7 +28,8 @@ Promise.allSettled(promises)
           title: (c.title || "").replace('Field boundaries for ', ''),
           attribution: c.attribution,
           bbox: c.extent.spatial.bbox,
-          source: c.source
+          source: c.source,
+          fiboa_extensions: c.fiboa_extensions,
         };
 
         const pmtiles = c.links.find(l => l.rel === 'pmtiles');
@@ -41,8 +42,7 @@ Promise.allSettled(promises)
           if (parquet && parquet['table:row_count'] > 0) {
             data.count = parquet['table:row_count'];
           }
-        }
-        else if (c.count) {
+        } else if (c.count) {
           data.count = c.count;
         }
 
