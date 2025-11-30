@@ -33,6 +33,7 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code,HCAT2_name,HCA
 210,POVOAMENTO DE EUCALIPTO,EUCALYPTUS PLANTATION,eucalyptus,3306050000,eucalyptus,3306050000
 163,POVOAMENTO AZINHEIRAS,EVERGREEN OAK PLANTATION,oak,3306060000,oak,3306060000
 089,POUSIO,FALLOWING/ INTERCROPPING (INTERRUPTED CULTIVATEN TO MAKE SOIL MORE FERTILE),fallow_land_not_crop,3301110000,fallow_land_not_crop,3301110000
+89,POUSIO,FALLOWING/ INTERCROPPING (INTERRUPTED CULTIVATEN TO MAKE SOIL MORE FERTILE),fallow_land_not_crop,3301110000,fallow_land_not_crop,3301110000
 085,FIGO,FIG,fig,3303010600,fig,3303010600
 173,ACEIRO FLORESTAL,FOREST FIREBREAKS,tree_wood_forest,3306000000,tree_wood_forest,3306000000
 293,ALHO FRANCÊS,FRENCH GARLIC,garlic,3301220200,garlic,3301220200
@@ -113,22 +114,66 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code,HCAT2_name,HCA
 242,AGRIÃO,watercress,cress,3301210300,cress,3301210300
 231,MELANCIA,WATERMELON,watermelon,3301140500,watermelon,3301140500
 001,TRIGO,WHEAT,common_soft_wheat,3301010100,common_soft_wheat,3301010100
-294,0,,not_known_and_other,3399000000,not_known_and_other,3399000000
-309,0,,not_known_and_other,3399000000,not_known_and_other,3399000000
 286,GROSELHA,Redcurrant,redcurrant,3303021100,redcurrant,3303021100
 155,TANGERINA,Tangerine,citrus_plantations,3303040000,citrus_plantations,3303040000
 925,GALERIA RIPÍCOLA - ÁREA ÚTIL,Riparian Gallery - Usable Area,not_known_and_other,3399000000,not_known_and_other,3399000000
 269,MARACUJÁ,Passion fruit,orchards_fruits,3303010000,orchards_fruits,3303010000
 119,NESPERA,Loquat,medlar_loquat,3303010800,medlar_loquat,3303010800
 009,LINHO,Linen,flax_linen,3301060701,flax_linen,3301060701
-319,,,not_known_and_other,3399000000,not_known_and_other,3399000000
 301,CULTURAS EM HIDROPONIA,Hydroponic crops,not_known_and_other,3399000000,not_known_and_other,3399000000
 300,TALUDE DA VINHA,Vineyard,vineyards_wine_vine_rebland_grapes,3303060000,vineyards_wine_vine_rebland_grapes,3303060000
-123,,,not_known_and_other,3399000000,not_known_and_other,3399000000
 234,PEPINO,Cucumber,cucumber_pickle,3301140100,cucumber_pickle,3301140100
 232,MELOA,Melon,melon,3301140300,melon,3301140300
 939,EP-BOSQUETE E FORMAÇÕES RELIQUIAIS-ÁREA ÚTIL,Usable Area,tree_wood_forest,3306000000,tree_wood_forest,3306000000
-989,,,not_known_and_other,3399000000,not_known_and_other,3399000000
-986,,,not_known_and_other,3399000000,not_known_and_other,3399000000
-725,,,not_known_and_other,3399000000,not_known_and_other,3399000000
 128,INHAME,Yam,unspecified_root_vegetables,3301299800,unspecified_root_vegetables,3301299800
+989,ELP VALA DE REGA OU DRENAGEM - ÁREA ÚTIL,Usable Area,not_known_and_other,3399000000,not_known_and_other,3399000000
+123,LIMA,LIME,citrus_plantations,3303040000,citrus_plantations,3303040000
+294,TALHADIA DE CURTA ROTAÇÃO,SHORT ROTATION COPPICE,tree_wood_forest,3306000000,tree_wood_forest,3306000000
+309,ESPARGOS,ASPARAGUS,fresh_vegetables,3301070000,fresh_vegetables,3301070000
+319,FEIJÃO FRADE,COWPEA,beans,3301020100,beans,3301020100
+986,ELP CHARCAS E LAGOAS - ÁREA ÚTIL,ELP PONDS AND LAGOONS - USABLE AREA,not_known_and_other,3399000000,not_known_and_other,3399000000
+725,SUPERFICIE NÃO AGRICOLA,NON-AGRICULTURAL SURFACE,not_known_and_other,3399000000,not_known_and_other,3399000000
+241,ABÓBORAS E ABOBORINHAS,PUMPKINS AND COURGETTES,pumpkin_squash_gourd,3301140400,pumpkin_squash_gourd,3301140400
+142,PRADOS TEMPORÁRIOS,TEMPORARY MEADOWS,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
+321,CÁRTAMO,SAFFLOWER,oilseed_crops,3301060800,oilseed_crops,3301060800
+279,RÚCULA,ARUGULA,salads_lettuce_leaf_vegetables,3301310000,salads_lettuce_leaf_vegetables,3301310000
+311,ARAÇÁ,STRAWBERRY GUAVA,orchards_fruits,3303010000,orchards_fruits,3303010000
+299,GOIABA,GUAVA,orchards_fruits,3303010000,orchards_fruits,3303010000
+190,MACIÇOS OU FORMAÇÕES RELIQUIAIS OU NOTÁVEIS,RELICT OR REMARKABLE FORMATIONS,tree_wood_forest,3306000000,tree_wood_forest,3306000000
+048,ERVILHACA,VETCH,legumes_harvested_green,3301090300,legumes_harvested_green,3301090300
+310,GOJI,GOJI BERRY,orchards_fruits,3303010000,orchards_fruits,3303010000
+111,ALFARROBA,CAROB,orchards_fruits,3303010000,orchards_fruits,3303010000
+023,MILHO DOCE,SWEET CORN,grain_maize_corn_popcorn,3301010600,grain_maize_corn_popcorn,3301010600
+312,PITAIA,DRAGON FRUIT,orchards_fruits,3303010000,orchards_fruits,3303010000
+059,ALGODAO,COTTON,cotton,3301060700,cotton,3301060700
+268,GALERIA RIPICOLA FLORESTAL,RIPARIAN GALLERY FOREST,tree_wood_forest,3306000000,tree_wood_forest,3306000000
+058,CÂNHAMO,HEMP,hemp,3301060702,hemp,3301060702
+322,BAMBU,BAMBOO,tree_wood_forest,3306000000,tree_wood_forest,3306000000
+288,FESTUCA,FESCUE,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
+261,TANGERA,TANGERINE,citrus_plantations,3303040000,citrus_plantations,3303040000
+324,TRIGO-SARRACENO,BUCKWHEAT,other_cereals,3301019900,other_cereals,3301019900
+223,SABUGUEIRO (BAGA),ELDERBERRY,orchards_fruits,3303010000,orchards_fruits,3303010000
+298,MANGA,MANGO,orchards_fruits,3303010000,orchards_fruits,3303010000
+314,QUINOA,QUINOA,other_cereals,3301019900,other_cereals,3301019900
+302,CULTURAS SEM SOLO,SOILLESS CULTURES,not_known_and_other,3399000000,not_known_and_other,3399000000
+035,LUPULO,HOPS,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,aromatic_medicinal_culinary_plants_spices_herbs,3301061200
+315,LENTILHA,LENTIL,beans,3301020100,beans,3301020100
+316,CHICHARO,GRASS PEA,beans,3301020100,beans,3301020100
+304,TRIGO SPELTA,SPELT WHEAT,common_soft_wheat,3301010100,common_soft_wheat,3301010100
+987,ELP MURO DE PEDRA POSTA - ÁREA ÚTIL,ELP DRY STONE WALL - USABLE AREA,not_known_and_other,3399000000,not_known_and_other,3399000000
+289,PANASCO,HALFA GRASS,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
+151,ANONA,CHERIMOYA,orchards_fruits,3303010000,orchards_fruits,3303010000
+313,PHYSALIS,PHYSALIS,orchards_fruits,3303010000,orchards_fruits,3303010000
+325,MILHO PAINÇO,MILLET,millet_sorghum,3301010900,millet_sorghum,3301010900
+290,BROMUS,BROME GRASS,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
+115,CHA,TEA,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,aromatic_medicinal_culinary_plants_spices_herbs,3301061200
+018,SOJA,SOYBEAN,oilseed_crops,3301060800,oilseed_crops,3301060800
+988,ELP PATRIMÓNIO CULTURAL - ÁREA ÚTIL,ELP CULTURAL HERITAGE - USABLE AREA,not_known_and_other,3399000000,not_known_and_other,3399000000
+133,BANANA,BANANA,orchards_fruits,3303010000,orchards_fruits,3303010000
+284,PAPAIA,PAPAYA,orchards_fruits,3303010000,orchards_fruits,3303010000
+237,RÁBANO,RADISH,unspecified_root_vegetables,3301299800,unspecified_root_vegetables,3301299800
+292,ANAFA,ANAFA,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
+327,CANÓNIGOS,LAMB'S LETTUCE,salads_lettuce_leaf_vegetables,3301310000,salads_lettuce_leaf_vegetables,3301310000
+323,FUNCHO,FENNEL,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,aromatic_medicinal_culinary_plants_spices_herbs,3301061200
+238,RUTABAGA,RUTABAGA,turnips,3301290800,turnips,3301290800
+308,CARQUEJA,BROOM SHRUB,shrubberries_shrubs,3303080000,wire_bush,3303080700
