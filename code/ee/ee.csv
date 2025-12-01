@@ -244,13 +244,13 @@ muu põlduba,Other field bean,beans,3301020100,beans,3301020100
 muu valge peakapsas,Other white head cabbage,white_cabbage,3301210212,white_cabbage,3301210212
 muu õli- ja kiukultuur,Other oil and fibre crop,other_industrial_crops,3301069900,other_industrial_crops,3301069900
 "ristik (50-80% ristikut, teisi heintaimi 20-50%), v.a punane, roosa ja valge ristik",Clover (50-80% clover 20-50% other grasses) excl. red alsike and white,clover,3301090303,clover,3301090303
-põlduba ""Helbi"",Field bean ""Helbi"",beans,3301020100,beans,3301020100
+"põlduba ""Helbi""",Field bean ""Helbi"",beans,3301020100,beans,3301020100
 lauaviinamarjad (viinapuu),Table grapes,vineyards_wine_vine_rebland_grapes,3303060000,vineyards_wine_vine_rebland_grapes,3303060000
-põldhernes ""Kirke"" (100% põldhernest ""Kirke""),Field pea ""Kirke"" (100%),peas,3301020600,peas,3301020600
+"põldhernes ""Kirke"" (100% põldhernest ""Kirke"")","Field pea ""Kirke"" (100%)",peas,3301020600,peas,3301020600
 "ristik (100% ristikut), v.a punane, roosa ja valge ristik",Clover (100%) excl. red alsike and white,clover,3301090303,clover,3301090303
 muud liblikõielised (100% liblikõielisi),Other legumes (100%),unspecified_legumes_harvested_green,3301090398,legumes_dried_pulses_protein_crops,3301020000
 mitmeliigiline väike põld,Multi-species small field,kitchen_gardens,3301120000,kitchen_gardens,3301120000
-kartul ""Jõgeva kollane"",Potato ""Jõgeva kollane"",potatoes,3301030000,potatoes,3301030000
+"kartul ""Jõgeva kollane""","Potato ""Jõgeva kollane""",potatoes,3301030000,potatoes,3301030000
 muu harilik sibul (söögisibul),Other common onion,onions,3301220400,onions,3301220400
 "kanep, Estica",Hemp Estica,hemp_cannabis,3301061000,hemp_cannabis,3301061000
 veiniviinamarjad (viinapuu),Wine grapes,vineyards_wine_vine_rebland_grapes,3303060000,vineyards_wine_vine_rebland_grapes,3303060000
@@ -260,28 +260,28 @@ murelipuu,Morello cherry,cherry_cherries,3303010400,cherry_cherries,3303010400
 "ristik (vähemalt 80% ristikut, kuni 20% heintaimi), v.a punane, roosa ja valge ristik",Clover (at least 80% clover up to 20% grasses) excl. red alsike and white,clover,3301090303,clover,3301090303
 must leeder,Black elder,berries_berry_species,3303020000,berries_berry_species,3303020000
 "kanep, CFX-2",Hemp CFX-2,hemp_cannabis,3301061000,hemp_cannabis,3301061000
-punane aruhein ""Jõgeva 70"",Red fescue ""Jõgeva 70"",poaceae_grasses,3301090200,pasture_meadow_grassland_grass,3302000000
+"punane aruhein ""Jõgeva 70""","Red fescue ""Jõgeva 70""",poaceae_grasses,3301090200,pasture_meadow_grassland_grass,3302000000
 muu põldhernes tugikultuuriga (vähemalt 70% põldhernest),Other field pea with support crop (at least 70%),peas,3301020600,peas,3301020600
-kartul ""Endla"",Potato ""Endla"",potatoes,3301030000,potatoes,3301030000
-põldhernes ""Kirke"" tugikultuuriga (kuni 70% põldhernest ""Kirke""),Field pea ""Kirke"" with support crop (up to 70%),peas,3301020600,peas,3301020600
+"kartul ""Endla""","Potato ""Endla""",potatoes,3301030000,potatoes,3301030000
+"põldhernes ""Kirke"" tugikultuuriga (kuni 70% põldhernest ""Kirke"")"","Field pea ""Kirke"" with support crop (up to 70%)",peas,3301020600,peas,3301020600
 muu kaalikas,Other rutabaga,swede_rutabaga,3301210500,swede_rutabaga,3301210500
 "talioder allakülviga, v.a liblikõieliste allakülviga",Winter barley undersown (excl. legumes),winter_barley,3301010401,winter_barley,3301010401
 "salvei, aed-",Garden sage,other_aromatic_medicinal_culinary_plants_spices_herbs,3301061299,aromatic_medicinal_culinary_plants_spices_herbs,3301061200
 lillede segu,Mixture of flowers,flowers_ornamental_plants,3301080000,flowers_ornamental_plants,3301080000
 "kanep, Loja",Hemp Loja,hemp_cannabis,3301061000,hemp_cannabis,3301061000
-kaalikas ""Kohalik sinine"",Rutabaga ""Kohalik sinine"",swede_rutabaga,3301210500,swede_rutabaga,3301210500
+"kaalikas ""Kohalik sinine""","Rutabaga ""Kohalik sinine""",swede_rutabaga,3301210500,swede_rutabaga,3301210500
 "sinerõigas, harilik",Common oil radish,radish,3301290600,radish,3301290600
-harilik sibul ""Jõgeva 3"",Onion ""Jõgeva 3"",onions,3301220400,onions,3301220400
-põldhernes ""Kirke"" tugikultuuriga (vähemalt 70% põldhernest ""Kirke""),Field pea ""Kirke"" with support crop (at least 70%),peas,3301020600,peas,3301020600
+"harilik sibul ""Jõgeva 3""","Onion ""Jõgeva 3""",onions,3301220400,onions,3301220400
+"põldhernes ""Kirke"" tugikultuuriga (vähemalt 70% põldhernest ""Kirke"")","Field pea ""Kirke"" with support crop (at least 70%)",peas,3301020600,peas,3301020600
 maguslupiin,Sweet lupin,lupins,3301020300,legumes_dried_pulses_protein_crops,3301020000
 muu söödapeet,Other fodder beet,mangelwurzel_fodder_beet,3301290400,mangelwurzel_fodder_beet,3301290400
 "suvitritikale allakülviga, v.a liblikõieliste allakülviga",Spring triticale undersown (excl. legumes),spring_triticale,3301010802,spring_triticale,3301010802
 punane peakapsas,Red head cabbage,brassica_oleracea_cabbage,3301210200,brassica_oleracea_cabbage,3301210200
-aas-rebasesaba ""Haljas"",Meadow foxtail ""Haljas"",poaceae_grasses,3301090200,pasture_meadow_grassland_grass,3302000000
+"aas-rebasesaba ""Haljas""","Meadow foxtail ""Haljas""",poaceae_grasses,3301090200,pasture_meadow_grassland_grass,3302000000
 "harilik esparsett (vähemalt 80% esparsetti, kuni 20% heintaimi)",Common sainfoin (at least 80% sainfoin up to 20% grasses),onobrychis_sainfoins,3301061600,onobrychis_sainfoins,3301061600
 "mädarõigas, aed-",Garden horseradish,horseradish,3301210400,horseradish,3301210400
 lehtpeet,Leaf beet (chard),beetroot_beets,3301290200,beetroot_beets,3301290200
-kartul ""Väike verev"",Potato ""Väike verev"",potatoes,3301030000,potatoes,3301030000
+"kartul ""Väike verev""","Potato ""Väike verev""",potatoes,3301030000,potatoes,3301030000
 kiulina,Fibre flax,flax_fibre,3301060701,flax_fibre,3301060701
 toompihlakas,Serviceberry (Amelanchier),berries_berry_species,3303020000,berries_berry_species,3303020000
 "kanep, Bialobrzeskie",Hemp Bialobrzeskie,hemp_cannabis,3301061000,hemp_cannabis,3301061000
