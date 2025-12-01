@@ -114,7 +114,7 @@ Saflor,Safflower,safflower,3301083900
 Obstanlagen (Birnen),Orchards (pears),orchards_fruits,3303010000
 Streueflächen in der LN,Litter meadows in utilized agri area,pasture_meadow_grassland_grass,3302000000
 Rhabarber,Rhubarb,rhubarb,3301230000
-"Übrige unproduktive Flächen (z.B. gemulchte Flächen, stark verunkrautete Flächen, Hecken ohne Pufferstreifen)",Other unproductive areas (e.g. mulched, weedy, hedges without buffers),not_known_and_other,3399000000
+"Übrige unproduktive Flächen (z.B. gemulchte Flächen, stark verunkrautete Flächen, Hecken ohne Pufferstreifen)","Other unproductive areas (e.g. mulched, weedy, hedges without buffers)",not_known_and_other,3399000000
 "Flächen ohne landwirtschaftliche Hauptzweckbestimmung (erschlossenes Bauland, Spiel-, Reit-, Camping-, Golf-, Flug- und Militärplätze oder ausgemarchte Bereiche von Eisenbahnen, öffentlichen Strassen und Gewässern)",Areas without agricultural main purpose (built land etc.),not_known_and_other,3399000000
 Buchweizen,Buckwheat,buckwheat,3301150200
 "Einjährige gärtnerische Freilandkulturen (Blumen, Rollrasen usw.)",Annual horticultural open-field crops (flowers turf etc.),flowers_ornamental_plants,3301080000
@@ -147,3 +147,12 @@ Nützlingsstreifen auf offener Ackerfläche,Beneficial insect strips on arable l
 Einjährige Gewürz- und Medizinalpflanzen,Annual spice and medicinal plants,other_arable_land_crops,3301990000
 Beerenkulturen in geschütztem Anbau ohne festes Fundament; im gewachsenen Boden,Berry crops protected without foundation in soil,berries_berry_species,3303020000
 Winterraps als nachwachsender Rohstoff,Winter rapeseed as renewable resource,rapeseed_rape,3301060400
+Hochstamm-Feldobstbäume (Punkte oder Flächen),High-stem field fruit trees (points or areas),orchards_fruits,3303010000
+Nussbäume (Punkte oder Flächen),Nut trees (points or areas),orchards_fruits,3303010000
+Edelkastanienbäume,Sweet chestnut trees,orchards_fruits,3303010000
+Einheimische standortgerechte Einzelbäume und Alleen (Punkte oder Flächen),Native site-appropriate single trees and avenues (points or areas),shrubberries_shrubs,3303080000
+Andere Bäume,Other trees,not_known_and_other,3399000000
+Andere Bäume (regionsspezifische Biodiversitätsförderfläche),Other trees (region-specific biodiversity area),not_known_and_other,3399000000
+Andere Elemente (regionsspezifische Biodiversitätsförderfläche),Other elements (region-specific biodiversity area),not_known_and_other,3399000000
+Ackerschonstreifen,Conservation strips on arable land,not_known_and_other,3399000000
+Getreide in weiter Reihen,Cereals in wide rows,other_cereals,3301019900
