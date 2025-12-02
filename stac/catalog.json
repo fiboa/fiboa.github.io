@@ -467,15 +467,6 @@
     },
     {
       "rel": "child",
-      "href": "https://data.source.coop/fiboa/data/br_ba_lem/stac/collection.json",
-      "type": "application/json",
-      "title": "Field boundaries for Brasil - Mendeley Data",
-      "license": "CC-BY-4.0",
-      "attribution": "Mendeley Data",
-      "source": "https://source.coop/fiboa/data/br_ba_lem"
-    },
-    {
-      "rel": "child",
       "href": "https://data.source.coop/fiboa/data/br_conab/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Conab",

@@ -105,6 +105,11 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "fiboa Field Boundaries"
+    },
+    {
+      "href": "https://data.source.coop/fiboa/data/uk/ukfields.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "rel": "pmtiles"
     }
   ]
 }
