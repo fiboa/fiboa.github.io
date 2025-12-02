@@ -455,6 +455,42 @@
       "license": "CC-BY-4.0",
       "attribution": "New Zealand Ministry for the Environment",
       "source": "https://source.coop/repositories/fiboa/newzealand/description/"
+    },
+    {
+      "rel": "child",
+      "href": "jecam",
+      "type": "application/json",
+      "title": "Field boundaries for Jecam Sirad",
+      "license": "CC-BY-4.0",
+      "attribution": "IEEE GRSS",
+      "source": "https://source.coop/fiboa/data/jecam"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/data/br_ba_lem/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Brasil - Mendeley Data",
+      "license": "CC-BY-4.0",
+      "attribution": "Mendeley Data",
+      "source": "https://source.coop/fiboa/data/br_ba_lem"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/data/br_conab/stac/collection.json",
+      "type": "application/json",
+      "title": "Field boundaries for Conab",
+      "license": "CC-BY-NC",
+      "attribution": "Conab https://portaldeinformacoes.conab.gov.br/",
+      "source": "https://source.coop/fiboa/data/br_conab"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/data/bg/stac/collection.json",
+      "type": "application/json",
+      "title": "Bulgaria",
+      "license": "CC-BY-4.0",
+      "attribution": "Ministry of Agriculture and Food, Bulgaria",
+      "source": "https://source.coop/fiboa/data/bg"
     }
   ]
 }
