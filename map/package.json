@@ -2,7 +2,7 @@
   "name": "map",
   "version": "1.0.0",
   "scripts": {
-    "prepare": "node prepare.js",
+    "prepare": "node prepare.js && node prepare_crop.js",
     "start": "npm run prepare && vite",
     "build": "npm run prepare && vite build",
     "serve": "npm run prepare && vite preview"
@@ -11,8 +11,10 @@
     "vite": "^6.2.4"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.3.2",
+    "lodash.debounce": "^4.0.8",
     "ol": "^10.0.0",
     "ol-ext": "^4.0.22",
-    "ol-pmtiles": "^1.0.2"
+    "ol-pmtiles": "^2.0.2"
   }
 }

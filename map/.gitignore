@@ -1,3 +1,4 @@
 node_modules
 dist
-/sources.js
+sources.js
+crop/codes.js
