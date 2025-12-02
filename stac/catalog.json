@@ -458,7 +458,7 @@
     },
     {
       "rel": "child",
-      "href": "jecam",
+      "href": "https://data.source.coop/fiboa/data/jecam/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Jecam Sirad",
       "license": "CC-BY-4.0",

@@ -8,7 +8,7 @@ import {CropLegendControl} from "./CropLegendControl";
 
 const CROP_ATTRIBUTE = "hcat:code";
 const fieldStyle = {
-  "stroke-color": 'rgba(88, 88, 88, 88)',
+  "stroke-color": 'rgba(88, 88, 88, 0.5)',
   "stroke-width": 0.5,
   "fill-color":  ['get', 'color']
 }
