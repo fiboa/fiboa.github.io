@@ -56,3 +56,5 @@ original_name,original_code,color,translated_name,HCAT3_name,HCAT3_code
 "Vineyards - No Subclass",V,#ebcc65,"Vineyards - No Subclass",vineyards_wine_vine_rebland_grapes,3303060000
 "Not cropped, or unclassified at the time of remote-sensing analysis. Idle status not determined",X,#4debc1,"Not cropped, or unclassified at the time of remote-sensing analysis. Idle status not determined",not_known_and_other,3399000000
 "Young Perennial (grouped for remote sensing or when CLASS C, D or V is not determined)",YP,#ef8c57,"Young Perennial (grouped for remote sensing or when CLASS C, D or V is not determined)",permanent_crops_perennial,3303000000
+"Unclassified",U,#4debc1,"Unclassified",not_known_and_other,3399000000
+"Urban Landscape",UL2,#4debc1,"Urban Landscape",not_known_and_other,3399000000
