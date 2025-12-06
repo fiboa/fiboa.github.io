@@ -482,6 +482,15 @@
       "license": "CC-BY-4.0",
       "attribution": "Ministry of Agriculture and Food, Bulgaria",
       "source": "https://source.coop/fiboa/data/bg"
+    },
+    {
+      "rel": "child",
+      "href": "https://data.source.coop/fiboa/data/ec_ro/stac/collection.json",
+      "type": "application/json",
+      "title": "Romania",
+      "license": "CC-BY-4.0",
+      "attribution": "Ministry of Regional Development and Public Administration, Romania",
+      "source": "https://source.coop/fiboa/data/ec_ro"
     }
   ]
 }
