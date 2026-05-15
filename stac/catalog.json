@@ -126,7 +126,7 @@
       "rel": "child",
       "href": "https://data.source.coop/fiboa/nl-crop/stac/collection.json",
       "type": "application/json",
-      "title": "BRP Crop Field Boundaries for The Netherlands (CAP-based)",
+      "title": "The Netherlands",
       "license": "CC0-1.0",
       "source": "https://source.coop/repositories/fiboa/nl-crop/description/"
     },
@@ -167,7 +167,7 @@
       "href": "https://data.source.coop/fiboa/denmark/stac/collection.json",
       "type": "application/json",
       "title": "Denmark Crop Fields (Marker)",
-      "license": "CC-0",
+      "license": "CC0-1.0",
       "source": "https://source.coop/repositories/fiboa/denmark/description/"
     },
     {
@@ -192,7 +192,7 @@
       "href": "https://data.source.coop/fiboa/de-sl/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Saarland, Germany",
-      "license": "cc-by-4.0",
+      "license": "CC-BY-4.0",
       "attribution": "© GDI-SL 2024",
       "source": "https://source.coop/repositories/fiboa/de-sl/description/"
     },
@@ -295,9 +295,9 @@
       "href": "https://data.source.coop/fiboa/es-an/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Spain Andalucia",
-      "license": "CC-SA-BY-ND",
+      "license": "CC-BY-4.0",
       "attribution": "©Junta de Andalucía",
-      "source": "https://source.coop/repositories/fiboa/es-cl/description/"
+      "source": "https://source.coop/repositories/fiboa/es-an/description/"
     },
     {
       "rel": "child",
@@ -358,7 +358,7 @@
       "href": "https://data.source.coop/fiboa/es-md/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Spain Madrid",
-      "license": "CC-0",
+      "license": "CC0-1.0",
       "attribution": "Comunidad de Madrid",
       "source": "https://source.coop/repositories/fiboa/es-md/description/"
     },
@@ -419,7 +419,7 @@
       "href": "https://data.source.coop/fiboa/czech/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for Czech",
-      "license": "CC-0",
+      "license": "CC0-1.0",
       "source": "https://source.coop/repositories/fiboa/czech/description/"
     },
     {
@@ -435,7 +435,7 @@
       "href": "https://data.source.coop/fiboa/us-ca-scm/stac/collection.json",
       "type": "application/json",
       "title": "Field boundaries for California Statewide Crop Mapping",
-      "license": "CC-0",
+      "license": "CC0-1.0",
       "source": "https://source.coop/repositories/fiboa/us-ca-scm/description/"
     },
     {
