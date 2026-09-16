@@ -1,0 +1,101 @@
+original_code,original_name
+AA1,Cereali
+AA10,Seminativo lasciato a riposo - EFA
+AA11,Granturco (Mais)
+AA12,Risone
+AA13,Patata da consumo
+AA14,Patata da seme
+AA15,Carota
+AA16,Zucca
+AA17,Zucchini
+AA18,Cipolla
+AA19,Bietola rossa
+AA2,Fragola
+AA20,Porro
+AA21,Sedano
+AA22,Carciofo
+AA23,Finocchio
+AA24,Avena
+AA25,Segale
+AA26,Grano duro
+AA27,Grano tenero
+AA28,Grano saraceno
+AA29,Orzo
+AA3,Colture orticole in pieno campo
+AA30,Spelta
+AA31,Miscugli di colture rispettosi delle api
+AA33,Pomodoro
+AA34,Erba cipollina
+AA35,Soia
+AA38,Fagiolo
+AA39,Cetriolo
+AA4,Piante industriali
+AA40,Spinacio
+AA41,Peperone
+AA42,Ravanello
+AA5,Asparago
+AA6,Insalate
+AA7,Radicchio
+AA8,Cavolo cappuccio
+AA9,Cavolfiore
+AF1,Prato avvicendato misto
+AF2,Mais foraggero
+AF3,Erba medica
+AF4,Trifoglio
+AF5,Triticale
+AL1,Alpeggio (senza tare)
+AL10,Alpeggio (tara 70% sotto 1800m) - PLT
+AL2,Alpeggio (arborato 20%)
+AL3,Alpeggio (arborato 50%)
+AL4,Alpeggio (roccia 20%)
+AL5,Alpeggio (roccia 50%)
+AL9,Alpeggio (tara 70% oltre 1800m)
+ANA,Altri tipi di coltura
+AP2,Prato stabile
+AP3,Prato a sfalcio biennale
+AP4,Prato stabile (tara 20%)
+AP5,Prato a sfalcio biennale (tara 20%)
+AP6,Prato stabile (tara 50%)
+AP7,Prato a sfalcio biennale (tara 50%)
+AP8,Prato con radi alberi da frutta
+AS,Prato area speciale
+AS1,Prato area speciale (tara 20%)
+AS2,Prato area speciale (tara 50%)
+AS3,Prato area speciale a sfalcio biennale
+AS4,Prato area speciale a sfalcio biennale (tara 20%)
+AS5,Prato area speciale a sfalcio biennale (tara 50%)
+AV,Viticoltura
+AW5,Vigneto in fase di piantumazione
+CA,Castagneto
+FO,Bosco
+FR1,Mela
+FR10,Olivo
+FR11,Frutteto in fase di piantumazione
+FR12,Luppolo
+FR13,Nocciolo
+FR14,Mirtillo
+FR15,Sambuco
+FR16,More
+FR17,Noce
+FR18,Castagna
+FR2,Pera
+FR3,Ciliegia
+FR4,Albicocca
+FR5,Lampone
+FR6,Altra frutta
+FR7,Susine
+FR8,Ribes
+FR9,Uva da tavola
+PA1,Pascolo
+PA2,Pascolo (tara 20%)
+PA3,Pascolo (tara 50%)
+PA4,Parchetto per avicoli
+SE,Serre
+SI,Siepi
+VI,Vivaio
+VI1,Vivai frutticoli
+VI2,Vivai viticoli
+VI3,Vivai orticoli
+VI4,Vivai floricoli
+VI5,Vivai forestali
+VI7,Vivai di arbusti
