@@ -137,7 +137,7 @@ Kartoffeln,Potatoes,potatoes,3301030000
 Baumschule von Forstpflanzen ausserhalb der Forstzone,Nursery of forest plants outside forest zone,tree_wood_forest,3306000000
 Obstanlagen aggregiert,Orchards aggregated,orchards_fruits,3303010000
 "Übrige Flächen mit Dauerkulturen, beitragsberechtigt",Other perennial crop areas eligible,orchards_fruits,3303010000
-Baumschulen von Reben,Vine nurseries,vineyards_wine_vine_rebland_grapes,3303070000
+Baumschulen von Reben,Vine nurseries,nurseries_nursery,3303070000
 Wald,Forest,tree_wood_forest,3306000000
 "Hecken-, Feld- und Ufergehölze (mit Krautsaum)",Hedges field and riparian shrubs (with herb strip),shrubberries_shrubs,3303080000
 Sommergerste,Spring barley,spring_barley,3301010402
