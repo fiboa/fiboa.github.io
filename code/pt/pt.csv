@@ -145,9 +145,9 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code,HCAT2_name,HCA
 111,ALFARROBA,CAROB,orchards_fruits,3303010000,orchards_fruits,3303010000
 023,MILHO DOCE,SWEET CORN,grain_maize_corn_popcorn,3301010600,grain_maize_corn_popcorn,3301010600
 312,PITAIA,DRAGON FRUIT,orchards_fruits,3303010000,orchards_fruits,3303010000
-059,ALGODAO,COTTON,cotton,3301060700,cotton,3301060700
+059,ALGODAO,COTTON,cotton,3301060300,cotton,3301060300
 268,GALERIA RIPICOLA FLORESTAL,RIPARIAN GALLERY FOREST,tree_wood_forest,3306000000,tree_wood_forest,3306000000
-058,CÂNHAMO,HEMP,hemp,3301060702,hemp,3301060702
+058,CÂNHAMO,HEMP,hemp_cannabis,3301061000,hemp_cannabis,3301061000
 322,BAMBU,BAMBOO,tree_wood_forest,3306000000,tree_wood_forest,3306000000
 288,FESTUCA,FESCUE,pasture_meadow_grassland_grass,3302000000,pasture_meadow_grassland_grass,3302000000
 261,TANGERA,TANGERINE,citrus_plantations,3303040000,citrus_plantations,3303040000
