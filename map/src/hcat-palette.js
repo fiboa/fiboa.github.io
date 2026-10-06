@@ -1932,3 +1932,27 @@ export const hcat = [
     "color": "#cc8c32"
   }
 ]
+
+// Significant digits of the 10-digit HCAT code at each legend level.
+export const HCAT_LEVELS = [4, 6, 8, 10];
+export const FALLBACK_COLOR = "rgba(153, 187, 204, 0.67)";
+
+const byCode = new Map(hcat.map(c => [Number(c.code), c]));
+
+function levelFactor(level) {
+  return 10 ** (10 - HCAT_LEVELS[level]);
+}
+
+export function cropAt(code, level) {
+  const factor = levelFactor(level);
+  return byCode.get(Math.floor(Number(code) / factor) * factor);
+}
+
+export function levelColorExpression(level) {
+  const factor = levelFactor(level);
+  const parent = ["*", ["floor", ["/", ["to-number", ["get", "hcat:code"], 0], factor]], factor];
+  const stops = hcat
+    .filter(c => Number(c.code) % factor === 0)
+    .flatMap(c => [Number(c.code), c.color]);
+  return ["match", parent, ...stops, FALLBACK_COLOR];
+}
