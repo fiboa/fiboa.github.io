@@ -334,3 +334,6 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code,HCAT2_name,HCA
 0333,tritikale liblikõieliste allakülviga,Triticale undersown with legumes,triticale,3301010800,triticale,3301010800
 0334,veiniviinamarjad,Wine grapes,vineyards_wine_vine_rebland_grapes,3303060000,vineyards_wine_vine_rebland_grapes,3303060000
 0335,"vägihein, kõrge",Great mullein,other_aromatic_medicinal_culinary_plants_spices_herbs,3301061299,other_aromatic_medicinal_culinary_plants_spices_herbs,3301061299
+0336,"kanep, Tisza",Hemp Tisza,hemp_cannabis,3301061000,hemp_cannabis,3301061000
+0337,koirohi,Wormwood,artemisia,3301061206,aromatic_medicinal_culinary_plants_spices_herbs,3301061200
+0338,Unknown,Unknown,not_known_and_other,3399000000,not_known_and_other,3399000000
