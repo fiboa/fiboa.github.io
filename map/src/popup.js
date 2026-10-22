@@ -46,10 +46,33 @@ function fieldSection(feature, c) {
   return section;
 }
 
+// An overview cell: its fields and the crop groups with the most hectares.
+function cellSection(feature) {
+  const p = feature.properties;
+  const section = element("section");
+  section.append(element("h3", "Fields in this cell"));
+  const crops = Object.entries(p)
+    .filter(([key, ha]) => key.startsWith("ha_") && ha > 0)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([key, ha]) => [`${key.slice(3)} (ha)`, ha]);
+  section.append(propertyList({
+    fields: p.count,
+    "field area (ha)": p.area_ha,
+    "share of the cell (%)": p.pct_covered,
+    ...Object.fromEntries(crops),
+  }));
+  return section;
+}
+
 export function showPopup(map, lngLat, features, collections) {
   const byId = Object.fromEntries(collections.map(c => [c.id, c]));
   const sections = features.map(f =>
-    f.source === "bboxes" ? collectionSection(map, byId[f.properties.id]) : fieldSection(f, byId[f.source]),
+    f.source === "bboxes"
+      ? collectionSection(map, byId[f.properties.id])
+      : f.source === "cells"
+        ? cellSection(f)
+        : fieldSection(f, byId[f.source]),
   );
   if (!sections.length) {
     popup.remove();

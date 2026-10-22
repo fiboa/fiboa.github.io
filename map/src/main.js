@@ -10,16 +10,26 @@ import { showPopup } from "./popup.js";
 
 const FIELD_MIN_ZOOM = 7;
 const FIELD_COLOR = "rgb(0, 165, 255)";
+// Every field of the harmonized field data summed per A5 cell (r4 at z0 to r13 at z9), next to the global PMTiles.
+const OVERVIEW = "https://data.source.coop/ftw/harmonized-field-data/harmonized-field-data-overview.pmtiles";
 
 // The bundle moves maplibre-gl, so it cannot find its worker next to itself.
 setWorkerUrl(workerUrl);
 addProtocol("pmtiles", new Protocol().tile);
 
 const visible = collections.filter(c => c.pmtiles);
+const params = new URLSearchParams(location.search);
 const state = {
-  crop: new URLSearchParams(location.search).has("crop"),
+  crop: params.has("crop"),
+  // Zoomed out: the share of the land in fields per A5 cell instead of a box per dataset.
+  cells: params.has("cells"),
   level: 3,
 };
+
+function writeSearch() {
+  const search = [state.crop && "crop", state.cells && "cells"].filter(Boolean).join("&");
+  history.replaceState(null, "", (search ? `?${search}` : location.pathname) + location.hash);
+}
 
 const map = new Map({
   container: "map",
@@ -38,9 +48,29 @@ const map = new Map({
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       },
       bboxes: { type: "geojson", data: bboxFeatures() },
+      cells: {
+        type: "vector",
+        url: `pmtiles://${OVERVIEW}`,
+        attribution: '<a href="https://source.coop/ftw/harmonized-field-data">Fields of the World harmonized field data</a>',
+      },
     },
     layers: [
       { id: "osm", type: "raster", source: "osm" },
+      {
+        id: "cells-fill",
+        type: "fill",
+        source: "cells",
+        "source-layer": "cells",
+        maxzoom: FIELD_MIN_ZOOM,
+        layout: { visibility: "none" },
+        paint: {
+          "fill-color": FIELD_COLOR,
+          // Without it the shared cell edges are drawn twice and show as a mesh.
+          "fill-antialias": false,
+          // pct_covered: field area as a share of the cell; above 100 where fields reach over its edge.
+          "fill-opacity": ["interpolate", ["linear"], ["get", "pct_covered"], 0, 0.05, 20, 0.25, 50, 0.55, 90, 0.85],
+        },
+      },
       {
         id: "bbox-fill",
         type: "fill",
@@ -91,7 +121,12 @@ map.once("style.load", () => {
   map.on("moveend", updateView);
   document.getElementById("crop-toggle").addEventListener("click", () => {
     state.crop = !state.crop;
-    history.replaceState(null, "", (state.crop ? "?crop" : location.pathname) + location.hash);
+    writeSearch();
+    applyMode();
+  });
+  document.getElementById("cells-toggle").addEventListener("click", () => {
+    state.cells = !state.cells;
+    writeSearch();
     applyMode();
   });
 });
@@ -130,6 +165,8 @@ function applyMode() {
     map.setPaintProperty(`${c.id}-line`, "line-width", state.crop ? 0.5 : 1);
   }
   map.getSource("bboxes").setData(bboxFeatures(state.crop));
+  map.setLayoutProperty("cells-fill", "visibility", state.cells ? "visible" : "none");
+  for (const id of ["bbox-fill", "bbox-line"]) map.setLayoutProperty(id, "visibility", state.cells ? "none" : "visible");
 
   if (state.crop && !map.hasControl(legend)) map.addControl(legend, "bottom-right");
   if (!state.crop && map.hasControl(legend)) map.removeControl(legend);
@@ -139,10 +176,13 @@ function applyMode() {
   const toggle = document.getElementById("crop-toggle");
   toggle.setAttribute("aria-pressed", String(state.crop));
   toggle.innerText = state.crop ? "All datasets" : "With crops";
+  const cellsToggle = document.getElementById("cells-toggle");
+  cellsToggle.setAttribute("aria-pressed", String(state.cells));
+  cellsToggle.innerText = state.cells ? "Dataset boxes" : "Field density";
 }
 
 function interactiveLayers() {
-  return ["bbox-fill", ...visible.map(c => `${c.id}-fill`)].filter(
+  return ["bbox-fill", "cells-fill", ...visible.map(c => `${c.id}-fill`)].filter(
     id => map.getLayer(id) && map.getLayoutProperty(id, "visibility") !== "none",
   );
 }

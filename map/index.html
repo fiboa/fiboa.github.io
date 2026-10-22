@@ -12,7 +12,10 @@
     </h1>
     <div id="map"></div>
     <div id="hint">Zoom in to show the field boundaries</div>
-    <button id="crop-toggle" type="button" aria-pressed="false">With crops</button>
+    <div id="toggles">
+      <button id="crop-toggle" type="button" aria-pressed="false">With crops</button>
+      <button id="cells-toggle" type="button" aria-pressed="false" title="Zoomed out: the share of the land in fields per cell, or a box per dataset">Field density</button>
+    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
