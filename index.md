@@ -23,6 +23,7 @@ You can learn more about the technologies behind the fiboa specification, read t
 - [List of Tutorials](https://github.com/fiboa/tutorials)
 - [List of Datasets](data/)
   - [Map of the datasets](map/)
+  - [Demos: what you can build on the open field data](demo/)
 - [Extensions](extensions/)
 - [Software / Tooling](software/)
 
