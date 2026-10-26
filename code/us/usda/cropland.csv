@@ -1,5 +1,5 @@
 original_code,original_name,translated_name,HCAT3_name,HCAT3_code
-0,Background,Background,,
+0,Background,Background,not_known_and_other,3399000000
 1,Corn,Corn,grain_maize_corn_popcorn,3301010600
 2,Cotton,Cotton,cotton,3301060300
 3,Rice,Rice,rice,3301010700
@@ -43,8 +43,8 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 41,Sugarbeets,Sugarbeets,sugar_beet,3301290700
 42,Dry Beans,Dry Beans,beans,3301020100
 43,Potatoes,Potatoes,potatoes,3301030000
-44,Other Crops,Other Crops,,
-45,Sugarcane,Sugarcane,,
+44,Other Crops,Other Crops,other_arable_land_crops,3301990000
+45,Sugarcane,Sugarcane,other_industrial_crops,3301069900
 46,Sweet Potatoes,Sweet Potatoes,sweet_potatoes,3301040000
 47,Misc Vegs & Fruits,Misc Vegs & Fruits,unspecified_orchards_fruits,3303019800
 48,Watermelons,Watermelons,watermelon,3301140500
@@ -80,18 +80,18 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 78,,,
 79,,,
 80,,,
-81,Clouds/No Data,Clouds/No Data,,
-82,Developed,Developed,,
-83,Water,Water,,
+81,Clouds/No Data,Clouds/No Data,not_known_and_other,3399000000
+82,Developed,Developed,not_known_and_other,3399000000
+83,Water,Water,not_known_and_other,3399000000
 84,,,
 85,,,
 86,,,
-87,Wetlands,Wetlands,,
-88,Nonag/Undefined,Nonag/Undefined,,
+87,Wetlands,Wetlands,not_known_and_other,3399000000
+88,Nonag/Undefined,Nonag/Undefined,not_known_and_other,3399000000
 89,,,
 90,,,
 91,,,
-92,Aquaculture,Aquaculture,,
+92,Aquaculture,Aquaculture,not_known_and_other,3399000000
 93,,,
 94,,,
 95,,,
@@ -110,8 +110,8 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 108,,,
 109,,,
 110,,,
-111,Open Water,Open Water,,
-112,Perennial Ice/Snow,Perennial Ice/Snow,,
+111,Open Water,Open Water,not_known_and_other,3399000000
+112,Perennial Ice/Snow,Perennial Ice/Snow,not_known_and_other,3399000000
 113,,,
 114,,,
 115,,,
@@ -120,17 +120,17 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 118,,,
 119,,,
 120,,,
-121,Developed/Open Space,Developed/Open Space,,
-122,Developed/Low Intensity,Developed/Low Intensity,,
-123,Developed/Med Intensity,Developed/Med Intensity,,
-124,Developed/High Intensity,Developed/High Intensity,,
+121,Developed/Open Space,Developed/Open Space,not_known_and_other,3399000000
+122,Developed/Low Intensity,Developed/Low Intensity,not_known_and_other,3399000000
+123,Developed/Med Intensity,Developed/Med Intensity,not_known_and_other,3399000000
+124,Developed/High Intensity,Developed/High Intensity,not_known_and_other,3399000000
 125,,,
 126,,,
 127,,,
 128,,,
 129,,,
 130,,,
-131,Barren,Barren,,
+131,Barren,Barren,not_known_and_other,3399000000
 132,,,
 133,,,
 134,,,
@@ -188,12 +188,12 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 187,,,
 188,,,
 189,,,
-190,Woody Wetlands,Woody Wetlands,,
+190,Woody Wetlands,Woody Wetlands,not_known_and_other,3399000000
 191,,,
 192,,,
 193,,,
 194,,,
-195,Herbaceous Wetlands,Herbaceous Wetlands,,
+195,Herbaceous Wetlands,Herbaceous Wetlands,not_known_and_other,3399000000
 196,,,
 197,,,
 198,,,
