@@ -1,4 +1,7 @@
 original_code,original_name,translated_name,HCAT3_name,HCAT3_code
+1,Genehmigungspflichtige Baumaßnahmen,Construction work requiring a permit,not_known_and_other,3399000000
+4,"Nicht genehmigungspflichtiger Lagerplatz (Stroh, Futter, Silage)","Storage site not requiring a permit (straw, fodder, silage)",not_known_and_other,3399000000
+5,Keine Nutzung,No use,not_known_and_other,3399000000
 6,Festwiese,Permanent meadow,pasture_meadow_grassland_grass,3302000000
 7,Parkplatz,parking space,not_known_and_other,3399000000
 8,Spargel unter Folie,Asparagus under cover,asparagus,3301200000
@@ -23,18 +26,23 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 175,Mischanbau Mais/Sonnenblumen,Mixed cultivation of corn/sunflowers,grain_maize_corn_popcorn,3301010600
 176,Mais mit Bejagungsschneise in gutem landwirtschaftlichen und ökologischen Zustand**,Corn with hunting strip in good agricultural and ecological condition.,grain_maize_corn_popcorn,3301010600
 177,Mais mit Bejagungsschneise (Kulturpflanze),Corn with hunting strip (cultivated plant),grain_maize_corn_popcorn,3301010600
+188,Reis im Trockenanbau,"Rice, dry cultivation",rice,3301010700
+213,"Winter-Erbsen (Markerbse, Schalerbse, Zuckererbse, Futtererbse, Peluschke)","Winter peas (marrowfat, shelling, sugar, fodder peas, field peas)",peas,3301020600
 291,Wicken (auch Saatwicken),Vetch (also known as seed vetch),vetches,3301090305
 342,Faserflachs,Flax/Flax (flax linseed),flax_linseed,3301060700
 412,"Futterhackfrüchte (ohne Runkelfutterrüben, Kohlsteckrüben und Kartoffeln)","Fodder beet crops (excluding mangels, kohlrabi, and potatoes)",root_vegetables,3301290000
 434,Gras-Leguminosen Gemisch (Leguminosen überwiegt),Grass-legume mixture,temporary_grass,3301090100
 612,"Gemüserübsen (Stoppelrübe, Weiße Rübe, Bayerische Rübe, Mairübe, Chinakohl, Pak-Choi, Teltower Rü","Vegetable turnip (stubble turnip, white turnip, Bavarian turnip, spring turnip, Chinese cabbage, Pak-Choi, Teltow turnip)",fresh_vegetables,3301070000
+690,beetweiser Anbau von Küchenkräuter/Heil-und Gewürzpflanzen bis 4 Kulturen,"Culinary, medicinal and spice herbs grown in beds, up to 4 crops",aromatic_medicinal_culinary_plants_spices_herbs,3301061200
 711,Frisch-/Speiseerbsen Freiland,Fresh/Edible Peas Outdoor,peas,3301020600
 712,Blumenkohl Freiland,Cauliflower open field,cauliflower,3301210204
 713,Tomaten Freiland,Outdoor tomatoes,tomato,3301280000
+718,beetweiser Anbau Zierpflanzen bis 4 Kulturen,"Ornamental plants grown in beds, up to 4 crops",flowers_ornamental_plants,3301080000
 812,"Streuobst (ohne Wiesennutzung),",Orchards (without meadow use),orchards_fruits,3303010000
 814,"Sonst. Obstanlagen in Vollanbau (ohne Äpfel, Birnen, Pfirsiche)",otherwise. Fully cultivated orchards (without apples,orchards_fruits,3303010000
 817,"Beerenobst, z.B. Johannis-, Stachelbeeren","Berries, e.g. raspberries, gooseberries.",berries_berry_species,3303020000
 819,Sonstige Obstanlagen,Other orchards,orchards_fruits,3303010000
+886,Schonfläche unterjährig,Area rested for part of the year,not_known_and_other,3399000000
 891,Pappeln,Poplars,populus,3306070000
 896,Chinaschilf (Miscanth.),Chinese Silvergrass (Miscanthus),miscanthus_silvergrass,3301083000
 913,Klee- oder Luzernesamenvermehrung,Clover or alfalfa seed multiplication,arable_land_seed_seedlings,3301100000
