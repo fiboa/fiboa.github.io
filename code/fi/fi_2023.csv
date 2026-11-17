@@ -161,7 +161,7 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 6113,1-vuotiset siemennurmet,1-year seed grasses,temporary_grass,3301090100
 6115,"1-vuotinen siemennurmi, yksilajinen","1-year seed grass, single species",temporary_grass,3301090100
 6121,"Moniv. kuivaheinä-, säilörehu- ja tuorerehunurmet","Perennial dry hay, silage and fresh fodder crops",pasture_meadow_grassland_grass,3302000000
-6122,Monivuotiset laidunnurmet,Perennial pasture,pasture_meadow_grassland_grass,3302000000
+6122,Monivuotiset laidunnurmet,Perennial pasture,temporary_grass,3301090100
 6123,Monivuotiset siemennurmet,Perennial seed grasses,pasture_meadow_grassland_grass,3302000000
 6125,"Monivuotinen siemennurmi, yksilajinen","Perennial seed grasses, single species",pasture_meadow_grassland_grass,3302000000
 6210,"Pysyvä kuivah.,säilör., tuorer. (väh 5, alle10 v)","Perm. dry hay, silage, fresh forage (5-10 years)",pasture_meadow_grassland_grass,3302000000
@@ -189,8 +189,8 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 9403,Sänkikesanto,Stump fallow,fallow_land_not_crop,3301110000
 9404,Avokesanto,Open fallow,fallow_land_not_crop,3301110000
 9405,"Luonnonhoitopelto (nurmikasvit, väh. 2 v.)","Natural management field (grasses and legumes, min. 2 yrs)",temporary_grass,3301090100
-9412,Viherkesanto (nurmi ja niitty),Grassland (grassland and meadow),pasture_meadow_grassland_grass,3302000000
-9413,Viherkesanto (riista ja maisema),Green cover (wildlife and landscape),pasture_meadow_grassland_grass,3302000000
+9412,Viherkesanto (nurmi ja niitty),Grassland (grassland and meadow),fallow_land_not_crop,3301110000
+9413,Viherkesanto (riista ja maisema),Green cover (wildlife and landscape),fallow_land_not_crop,3301110000
 9414,Viherkesanto (mesikasvit),honey plants,fallow_land_not_crop,3301110000
 9422,"Monimuotoisuuspelto, riista",Diversity field for wild animals,not_known_and_other,3399000000
 9423,"Monimuotoisuuspelto, maisema","Diversity field, landscape",not_known_and_other,3399000000
@@ -212,8 +212,8 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 9812,Monivuotinen ympäristönurmi,Perennial environmental grass,pasture_meadow_grassland_grass,3302000000
 9820,Suojakaista,Protective strip,not_known_and_other,3399000000
 9830,Maisemapiirre,Landscape feature,not_known_and_other,3399000000
-9409,Luonnonhoitonurmi,Natural management grass,pasture_meadow_grassland_grass,3302000000
-6130,Rehunurmi,Forage grass,pasture_meadow_grassland_grass,3302000000
+9409,Luonnonhoitonurmi,Natural management grass,temporary_grass,3301090100
+6130,Rehunurmi,Forage grass,temporary_grass,3301090100
 5855,Öljyretikka,Oil nettle,nettles,3301061225
 9809,Suojavyöhyke,Protection zone,not_known_and_other,3399000000
 9427,"Monimuotoisuuskasvit, riista","Diversity plants, game",not_known_and_other,3399000000
@@ -222,7 +222,7 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 9428,"Monimuotoisuuskasvit, pölyttäjä ja maisema","Diversity plants, pollinator and landscape",not_known_and_other,3399000000
 6151,"Siemennurmi, yksilajinen","Seed grass, single species",poaceae_grasses,3301090200
 2181,Seos (herne/härkäpapu/makea lupiini/linssi/vilja),Mixture (pea/broad bean/sweet lupine/lentil/cereal),cereal,3301010000
-6140,Laidunnurmi,Pasture grass,pasture_meadow_grassland_grass,3302000000
+6140,Laidunnurmi,Pasture grass,temporary_grass,3301090100
 5854,Maanparannus- ja saneerauskasviseos,Land improvement and renovation plant mixture,not_known_and_other,3399000000
 6150,Siemennurmi,Seed grass,poaceae_grasses,3301090200
 9415,"Viherkesanto (riista, maisema ja pölyttäjä)","Green cover (game, landscape and pollinator)",not_known_and_other,3399000000
