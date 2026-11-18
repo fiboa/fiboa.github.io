@@ -424,3 +424,125 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 7195,Bosui,Bunching onion,scallion,3301220500
 7196,Lente-ui,Spring onion,scallion,3301220500
 7197,Bamboe,Bamboo,poaceae_grasses,3301090200
+1926o,"Aardappelen, poot op klei, uitgroeiteelt (loofver na 15-08)","Seed potatoes on clay, grow-out (haulm killing after 15-08)",potatoes,3301030000
+1927o,"Aardappelen, poot op zand/veen, uitgroei (loofver na 15-08)","Seed potatoes on sand/peat, grow-out (haulm killing after 15-08)",potatoes,3301030000
+1933o,"Vlas, vezel- (voor zaaizaad)",Fibre flax (for seed),flax_linen,3301060701
+1934o,"Aardappelen, zetmeel-",Starch potatoes,potatoes,3301030000
+1935o,"Aardappelen, zetmeel- TBM pootgoed","Starch potatoes, TBM seed potatoes",potatoes,3301030000
+1909,"Aardappelen, consumptie- op kleigrond",Ware potatoes on clay,potatoes,3301030000
+1910,"Aardappelen, consumptie- op zand-/veengrond",Ware potatoes on sand/peat,potatoes,3301030000
+1911,"Aardappelen, cons. op kleigrond (vroeg, loofver voor 15-07)","Ware potatoes on clay (early, haulm killing before 15-07)",potatoes,3301030000
+1912,"Aardappelen, cons. op zand/veen (vroeg, loofver voor 15-07)","Ware potatoes on sand/peat (early, haulm killing before 15-07)",potatoes,3301030000
+1928,"Aardappelrassen, poot- op kleigrond",Seed potato varieties on clay,potatoes,3301030000
+1929,"Aardappelrassen, poot- op zand-/veengrond",Seed potato varieties on sand/peat,potatoes,3301030000
+2951,"Aardappelen, consumptie op klei/lössgrond",Ware potatoes on clay/loess,potatoes,3301030000
+3730,"Aardappelen, poot op klei/lössgrond (NAK)",Seed potatoes on clay/loess,potatoes,3301030000
+3731,"Aardappelen, poot op zand/veengrond (NAK)",Seed potatoes on sand/peat,potatoes,3301030000
+3732,"Aardappelen, zetmeel (incl. TBM-pootgoed)",Starch potatoes,potatoes,3301030000
+3792,"Aardappelen, consumptie op zand/veengrond",Ware potatoes on sand/peat,potatoes,3301030000
+672,Groenten open grond (inclusief groentezaden),Open-field vegetables (incl. vegetable seeds),fresh_vegetables,3301070000
+172,Tuinbouwzaden,Horticultural seeds,fresh_vegetables,3301070000
+2749,"Prei, productie","Leek, production",leek,3301220300
+2750,"Prei, zaden en opkweekmateriaal","Leek, seeds and propagation material",leek,3301220300
+2713,"Bloemkool, productie","Cauliflower, production",cauliflower,3301210204
+2714,"Bloemkool, zaden en opkweekmateriaal","Cauliflower, seeds and propagation material",cauliflower,3301210204
+2746,"Paksoi, zaden en opkweekmateriaal","Bok choy, seeds and propagation material",bok_choy_pak_choi,3301210201
+2734,"Meloen, zaden en opkweekmateriaal","Melon, seeds and propagation material",fresh_vegetables,3301070000
+1029,"Lavas (Maggiplant), zaden en opkweekmateriaal","Lovage (Maggi plant), seeds and propagation material",lovage_maggiplant,3301061221
+1931,"Uien, poot- en plant- (incl. sjalotten)","Onions, sets and transplants (incl. shallots)",onions,3301220400
+3718,"Grasland, natuurlijk","Grassland, natural",pasture_meadow_grassland_grass,3302000000
+336,"Grasland, natuurlijk. Areaal met een natuurbeheertype dat overwegend voor landbouwactiviteiten-GLB wordt gebruikt","Grassland, natural, with a nature management type mainly used for agriculture (CAP)",pasture_meadow_grassland_grass,3302000000
+3720,"Faunaranden, grasland","Wildlife margins, grassland",pasture_meadow_grassland_grass,3302000000
+3721,"Faunaranden, bouwland","Wildlife margins, arable land",other_arable_land_crops,3301990000
+1575,Faunaranden,Wildlife margins,other_arable_land_crops,3301990000
+345,"Rand, grenzend aan bouwland, hoofdzakelijk bestaand uit een ander gewas dan gras","Margin adjacent to arable land, mainly a crop other than grass",other_arable_land_crops,3301990000
+1925,Overige akkerbouwgewassen,Other arable crops,other_arable_land_crops,3301990000
+176,Bloembollen en - knollen,Flower bulbs and tubers,flowers_ornamental_plants,3301080000
+175,Bloemkwekerijgewassen (inclusief bloemzaden),Floriculture crops (incl. flower seeds),flowers_ornamental_plants,3301080000
+1000,"Iris, bloembollen en -knollen","Iris, flower bulbs and tubers",iris,3301082300
+1027,"Pioenroos, bloembollen en -knollen","Peony, flower bulbs and tubers",peony_peonies,3301083400
+1018,"Kuifhyacint, bloembollen en -knollen","Grape hyacinth (Muscari comosum), flower bulbs and tubers",other_flowers_ornamental_plants,3301089900
+980,"Lelie, droogbloemen","Lily, dried flowers",lilies,3301082500
+989,"Zantedeschia, droogbloemen","Zantedeschia, dried flowers",other_flowers_ornamental_plants,3301089900
+995,"Amaryllis, droogbloemen","Amaryllis, dried flowers",other_flowers_ornamental_plants,3301089900
+1040,"Chrysant, droogbloemen","Chrysanthemum, dried flowers",chrysanthemum,3301080900
+1930,"Tagetes (zand, loss) (geen groene braak)","Tagetes (sand, loess) (not green fallow)",tagetes,3301084700
+212,Fruit,Fruit,orchards_fruits,3303010000
+1698,Walnoten,Walnuts,walnuts,3303030600
+1697,Hazelnoten,Hazelnuts,hazelnuts_hazel,3303030200
+229,Boomkwekerij en vaste planten,Tree nursery and perennials,nurseries_nursery,3303070000
+3806,"Boomkwekerijgewassen en vaste planten, open grond","Tree nursery crops and perennials, open ground",nurseries_nursery,3303070000
+294,"Boomkwekerijgewassen en vaste planten, pot- en containerveld","Tree nursery crops and perennials, pot and container field",nurseries_nursery,3303070000
+2653,Graszaad (inclusief klaverzaad),Grass seed (incl. clover seed),temporary_grass,3301090100
+1914,"Graszaad, overig","Grass seed, other",pasture_meadow_grassland_grass,3302000000
+1915,"Graszaad, rietzwenkgras","Grass seed, tall fescue",festuca_fescue,3301090202
+1916,"Graszaad, veldbeemd","Grass seed, smooth meadow grass",pasture_meadow_grassland_grass,3302000000
+1917,"Graszaad, roodzwenkgras, 1e jaar","Grass seed, red fescue, first year",festuca_fescue,3301090202
+1918,"Graszaad, roodzwenkgras, overjarig","Grass seed, red fescue, perennial",festuca_fescue,3301090202
+1919,"Graszaad, westerwolds","Grass seed, Westerwolds ryegrass",lolium_ryegrass,3301090205
+1920,"Graszaad, Italiaans","Grass seed, Italian ryegrass",lolium_ryegrass,3301090205
+3516,Rietzwenkgras,Tall fescue,festuca_fescue,3301090202
+3501,Beemdlangbloem,Meadow fescue,festuca_fescue,3301090202
+1570,Klaverzaad,Clover seed,clover,3301090303
+2298,"Groenbemesters, vlinderbloemige","Green manures, leguminous",unspecified_legumes_harvested_green,3301090398
+2299,"Groenbemesters, niet-vlinderbloemige","Green manures, non-leguminous",fallow_land_not_crop,3301110000
+243,"Bonen, veld-(oa duive-, paarde-, wierbonen)(droog te oogsten","Field beans (incl. pigeon, horse and tick beans), harvested dry",beans,3301020100
+239,"Erwten, groene, droog te oogsten (geen conserven)","Green peas, harvested dry (not for canning)",peas,3301020600
+2650,Erwten inclusief schokkers (droog te oogsten),Peas incl. marrowfat peas (harvested dry),peas,3301020600
+240,Schokkers,Marrowfat peas,peas,3301020600
+2651,"Bieten, voeder- (inclusief aardperen)",Fodder beets (incl. Jerusalem artichokes),mangelwurzel_fodder_beet,3301290400
+249,"Vlas, vezel- (niet voor zaaizaad)",Fibre flax (not for seed),flax_linen,3301060701
+661,Overige granen,Other cereals,unspecified_cereals,3301011500
+659,Boekweit,Buckwheat,buckwheat,3301150200
+658,Graansorgho,Grain sorghum,millet_sorghum,3301010900
+660,Gierst,Millet,millet_sorghum,3301010900
+513,Kanariezaad,Canary seed,canary_seed_canaryseed,3301011400
+6806,Snijrogge,"Rye, cut green",rye,3301010300
+3518,Seradelle,Serradella,serradella,3301084200
+3520,Spurrie,Spurrey,other_arable_land_crops,3301990000
+657o,Overige toegestane voedergewassen,Other permitted fodder crops,other_arable_land_crops,3301990000
+1932o,"Groenbemesters, vlinderbloemige- (geen groene braak)","Green manures, leguminous (not green fallow)",unspecified_legumes_harvested_green,3301090398
+251,"Aardappelen, poot-",Seed potatoes,potatoes,3301030000
+252,"Aardappelen, poot (NAK) op kleigrond",Seed potatoes (NAK) on clay,potatoes,3301030000
+253,"Aardappelen, consumptie-",Ware potatoes,potatoes,3301030000
+254,"Aardappelen, consumptie-op kleigrond",Ware potatoes on clay,potatoes,3301030000
+255,"Aardappelen, zetmeel-",Starch potatoes,potatoes,3301030000
+859,"Aardappelen, zetmeel geleverd aan buitenland",Starch potatoes delivered abroad,potatoes,3301030000
+1905,Grasland natuurlijk,"Grassland, natural",pasture_meadow_grassland_grass,3302000000
+270,"Grasland, natuurlijk (max. 5 ton drogestof per ha.), tenmins","Grassland, natural (max. 5 t dry matter per ha)",pasture_meadow_grassland_grass,3302000000
+1563,"Grasland, natuurlijk, minder dan 50% van de oppervlakte bede","Grassland, natural, less than 50 % of the area covered",pasture_meadow_grassland_grass,3302000000
+1564,"Grasland, natuurlijk, voor 50-75% van de oppervlakte bedekt","Grassland, natural, 50-75 % of the area covered",pasture_meadow_grassland_grass,3302000000
+250,Graszaad,Grass seed,temporary_grass,3301090100
+1913,"Graszaad, Engels raai","Grass seed, perennial ryegrass",lolium_ryegrass,3301090205
+2030,"Graszaad, Engels raai 1e jaar","Grass seed, perennial ryegrass, first year",lolium_ryegrass,3301090205
+2031,"Graszaad, Engels raai overjarig","Grass seed, perennial ryegrass, perennial",lolium_ryegrass,3301090205
+264,Overige akkerbouwgewassen,Other arable crops,other_arable_land_crops,3301990000
+842,Overige nonfood/nonfeedgewassen,Other non-food/non-feed crops,other_arable_land_crops,3301990000
+876,Overige voedergewassen,Other fodder crops,other_arable_land_crops,3301990000
+817,Voor- en nasnede,Pre- and after-cut,other_arable_land_crops,3301990000
+816,Onder- en navrucht,Undersown and catch crop,other_arable_land_crops,3301990000
+261,"Uien, poot- en plant- (incl. sjalotten)","Onions, sets and transplants (incl. shallots)",onions,3301220400
+245,Koolzaad,Rapeseed,rapeseed_rape,3301060400
+158,Stamslabonen,Dwarf green beans,beans,3301020100
+856,Slabonen,Green beans,beans,3301020100
+855,Pronkbonen,Runner beans,beans,3301020100
+1700,Sint-Jansbrood,Carob,carob,3303110100
+1696,Amandelen,Almonds,almond,3303030100
+260,Groenbemestings-gewassen,Green manure crops,fallow_land_not_crop,3301110000
+1924,"Groenbemesters, niet-vlinderbloemige- (geen groene braak)","Green manures, non-leguminous (not green fallow)",fallow_land_not_crop,3301110000
+668,"Braak (groen, tenminste 6 maanden)","Fallow (green, at least 6 months)",fallow_land_not_crop,3301110000
+667,"Braak (zwart, tenminste 6 maanden)","Fallow (black, at least 6 months)",fallow_land_not_crop,3301110000
+869,"Braak (zwart, minder dan 6 maanden)","Fallow (black, less than 6 months)",fallow_land_not_crop,3301110000
+1565,Braak met voederleguminosen,Fallow with fodder legumes,fallow_land_not_crop,3301110000
+1804,"Braak, groene- 5 meter","Fallow, green, 5 metre",fallow_land_not_crop,3301110000
+1907,"Braak, groene- 10 meter","Fallow, green, 10 metre",fallow_land_not_crop,3301110000
+2034,"Braak, groene-","Fallow, green",fallow_land_not_crop,3301110000
+1906,Braak met niet in lijst voorkomend non food/non feed-gewas,Fallow with a non-food/non-feed crop not in the list,fallow_land_not_crop,3301110000
+1908,"Braak, zwarte- met ontheffing","Fallow, black, with exemption",fallow_land_not_crop,3301110000
+1566,"Braak, natuur -eenjarig","Fallow, nature, one year",fallow_land_not_crop,3301110000
+1567,"Braak, natuur -meerjarig","Fallow, nature, multi-year",fallow_land_not_crop,3301110000
+1568,"Braak, natuur -eenjarig met andere overheidsinstantie","Fallow, nature, one year, with another government body",fallow_land_not_crop,3301110000
+1569,"Braak, natuur -meerjarig met andere overheidsinstantie","Fallow, nature, multi-year, with another government body",fallow_land_not_crop,3301110000
+2029,"Braak, natuur-","Fallow, nature",fallow_land_not_crop,3301110000
+2033,"Onbeteelde grond, tijdelijk","Uncultivated land, temporary",fallow_land_not_crop,3301110000
+837,"Braak met bos (SBL regeling, na 28-01-1995)","Fallow with forest (SBL scheme, after 28-01-1995)",afforestation_reforestation,3306010000
