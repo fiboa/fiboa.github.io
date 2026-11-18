@@ -196,6 +196,10 @@ original_code,original_name,translated_name,HCAT3_name,HCAT3_code
 2025,"Aardappelen, bestrijdingsmaatregel AM",Potatoes AM . control measure,potatoes,3301030000
 2032,"Maïs, energie-",corn energy,grain_maize_corn_popcorn,3301010600
 2300,Onbeteelde grond vanwege een teeltverbod/ontheffing,Uncultivated land due to a cultivation ban/exemption,unmaintained,3308000000
+2301,Natuurlijk grasland met hoofdfunctie landbouw,Natural grassland with main function agriculture,pasture_meadow_grassland_grass,3302000000
+2302,Natuurlijk grasland (begraasd) met beperkte landbouwact.,Natural grassland (grazed) with limited agricultural activity,pasture_meadow_grassland_grass,3302000000
+2303,Overige natuurterreinen,Other natural areas,not_known_and_other,3399000000
+2304,"Heide, begraasd","Heath, grazed",not_known_and_other,3399000000
 2325,"Bessen, rode",Berries red,redcurrant,3303021100
 2326,Frambozen,Raspberries,raspberry_raspberries,3303021000
 2327,Bramen,blackberries,blackberry,3303020200
